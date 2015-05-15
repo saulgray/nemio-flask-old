@@ -1,0 +1,281 @@
+{
+   "READ-Translators": "Directly below are different links for this site, change the links only if you can find a better alternative in the language you are translating to, and you are familiar with basic HTML. Anything that starts with 'READ' is a message to the translators, and it does not need to be translated.",
+
+   "a": {
+      "i": "<i class=\"icon-down-open-big\"></i>",
+      "1": "<a href=\"http://blog.nem.io/windows-mac-installation-guide/\">",
+      "3": "<a href=\"comingSoon.html\">",
+      "5": "<a href=\"#OS-supportContent\">",
+      "6": "<a href=\"#how-harvestContent\">",
+      "8btcLink": "<a href=\"http://www.btc38.com/altcoin/xem/\">",
+      "nemBlog": "<a href=\"http://blog.nem.io/\">Official NEM Blog</a>",
+      "nemInstall": "<a href=\"http://blog.nem.io/windows-mac-installation-guide/\">",
+      "windowsInstall": "<a href=\"http://blog.nem.io/windows-installation-guide-standalone/\">",
+      "ubuntuInstall": "<a href=\"http://blog.nem.io/ubuntu-installation-guide-standalone/\">",
+      "javaCheck": "<a href=\"https://www.java.com/en/download/installed.jsp\">",
+      "javaWindowsM": "<a href=\"http://blog.nem.io/how-to-install-java-8-64-bit-on-windows/\">",
+      "javaMacM": "<a href=\"https://www.java.com/en/download/help/mac_install.xml\">",
+      "nemNinja": "<a href=\"http://bob.nem.ninja/\">bob.nem.ninja</a>",
+      "bobNemNinja": "<a href=\"http://bob.nem.ninja/\">",
+      "nemNinjaInstaller": "<a href=\"http://bob.nem.ninja/installer/\">bob.nem.ninja/installer</a>",
+      "nemWindowsTut": "<a href=\"http://blog.nem.io/windows-installation-guide-standalone/\">",
+      "nemMacTut": "<a href=\"http://blog.nem.io/windows-mac-installation-guide/\">",
+      "nemLinuxTut": "<a href=\"http://blog.nem.io/ubuntu-installation-guide-standalone/\">",
+      "portGuide": "<a href=\"http://blog.nem.io/easy-configuration-guide-opening-port-7890/\">",
+      "exchangeGuide": "<a href=\"\">",
+      "rasPi": "<a href=\"http://www.raspberrypi.org/products/raspberry-pi-2-model-b/\">",
+      "vultr": "<a href=\"https://www.vultr.com/pricing/\">",
+      "nuc": "<a href=\"http://www.intel.com/content/www/us/en/nuc/overview.html\">",
+      "liva": "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16856501007&cm_re=mini_computer-_-56-501-007-_-Product\">",
+      "foxconn": "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16856119080&cm_re=mini_pc-_-56-119-080-_-Product\">",
+      "easyConfig": "<a href=\"http://blog.nem.io/easy-configuration-guide-opening-port-7890/\">",
+      "easyConfig2": "<a href=\"http://www.wikihow.com/Open-Ports\">",
+      "nccSource": "<a href=\"https://github.com/NewEconomyMovement/NemCommunityClient\">Github</a>",
+      "nisApi": "<a href=\"http://bob.nem.ninja/docs/\">NIS API</a>"
+   },
+   "READ-Translators2": "Anything that is closed in brackets, such as '</a>', '<>', '</span>' below this message, should NOT be translated. For example, if you were translating this sentence, do not translate '<span>', but still translate the bold <span>TEXT INSIDE THESE TWO SPAN TAGS</span>",
+   "READ-Translators3": "Do not translate anything that starts with '$', looks like this '$t(a.1)' or this '$t(s.1)'",
+
+   "app": {
+      "now": "这里获得XEM",
+      "coming": "即将上线",
+      "tut": "教程",
+      "ninth": "9",
+      "eighth": "8",
+      "seventh": "7",
+      "sixth": "6",
+      "fifth": "5"
+   },
+   "nav":{
+      "client": "用户",
+      "buy": "购买XEM",
+      "blog": "BLOG",
+      "support": "<span>SUPPORT $t(a.i)</span>",
+      "tutorial": "TUTORIALS",
+      "helpdesk": "HELP DESK",
+      "faq": "常见问题与解答",
+      "update": "更新",
+      "lang": "<span><img src=\"img/flags/China.png\" alt=\"中文\"/> $t(a.i)</span>",
+      "READ-Translators4": "lang output should be the name of the translated language"
+   },
+   "clients":{
+      "header1": "NEM社区客户端",
+      "about1": "在您的浏览器中打开全功能NEM Beta版客户端,仅需简单的两步。",
+      "click1": "安装NEM社区客户端",
+      "help1": "安装NEM客户端过程中是否需要帮助？ $t(a.1) <span>请参见简要说明</span></a>",
+
+      "header2": "精简优化的NEM移动客户端",
+      "about2": "安装NEM移动客户端, 它具有NEM全部核心功能，使用更便捷。",
+      "click2": "即将上线"
+   },
+   "stats":{
+      "nis": "在线NIS",
+      "acc": "使用中的账号",
+      "dorm": "休眠中的账号",
+      "avg": "NEM in accounts"
+   },
+   "buy":{
+      "header": "如何获取XEM？",
+      "box1": "正式发布后，XEM将很快可在BITTREX交易",
+      "box1click": "$t(app.now)",
+      "box2": "正式发布后，XEM将很快可在POLONIEX交易",
+      "box2click": "$t(app.now)",
+      "box3": "直接使用现金购买XEM",
+      "box3click": "$t(app.coming)",
+      "help": "购买XEM需要更多帮助？ $t(a.3) <span> 这里了解更多</span></a>",
+      "help2": "购买XEM需要更多帮助？ $t(a.3) <span><br>这里了解更多</span></a>",
+      "8btc": "$t(a.8btcLink) <span>8BTC</span></a> NEM Category"
+   },
+   "faq":{
+      "header": "仍需帮助？",
+      "readfaq": "请仔细阅读常见问题与解答",
+      "readfaq2": "请仔细阅读常见问题与解答",
+      "irc": "用IRC在线与开发者聊天Chat live with a developer on IRC",
+      "irc2": "用IRC与开发者聊天",
+      "forum": "通过我们基于论坛的大型社区更多了解NEM。",
+      "forum2": "通过我们论坛与NEM参与者对话。",
+      "wiki": "了解NEM各方面更多细节请访问维基百科",
+      "wiki2": "了解NEM所有相关信息请访问维基百科"
+   },
+   "footer":{
+      "logotext": "NEM是一场基于去中心化、经济自由和机会均等原则建立新经济模式的运动。",
+
+      "resources": "资源",
+      "resources1": "NEM Github",
+      "resources2": "NEM Crowdsale",
+      "resources3": "最终股东清单",
+      "resources4": "NIS API",
+      "resources5": "NCC API",
+      "resources6": "8BTC",
+
+      "articles": "文章",
+      "articles1": "NEM on Vice",
+      "articles2": "NEM Yahoo Finance",
+      "articles3": "NEM Cointelegraph",
+      "articles4": "",
+      "articles5": "",
+      "articles6": "",
+
+      "newsletters": "最新讯息",
+      "newsletters1": "最新讯息 $t(app.ninth)",
+      "newsletters2": "最新讯息 $t(app.eighth)",
+      "newsletters3": "最新讯息 $t(app.seventh)",
+      "newsletters4": "最新讯息 $t(app.sixth)",
+      "newsletters5": "最新讯息 $t(app.fifth)",
+      "newsletters6": "存档"
+   },
+   "faqs":{
+      "headerFaqs": "常见问题与解答",
+
+      "nav":{
+         "gen-question": "常见问题",
+         "nem-crypto": "NEM是一种加密货币么？",
+         "why-nem": "当前有比特币，为什么我应该使用NEM？",
+         "use-nem": "用NEM我能做什么？",
+         "whats-xem": "什么是XEM？",
+         "loyalty-points": "信用卡可以给忠诚积分。NEM能给同样的么？",
+
+         "get-started": "如何开始",
+         "OS-support": "支持哪种操作系统？",
+         "browser-bit": "我如何检查我的浏览器位版本？",
+         "install-java": "我如何安装Java？",
+         "get-wallet": "我如何获得一个NEM钱包？",
+         "strong-pass": "健壮的密码的定义是什么？",
+         "install-nem": "我如何安装NEM软件？",
+         "get-xem": "我如何得到一些XEM？",
+         "ncc-nis": "什么是NCC和NIS？",
+         "nis-or-ncc": "仅运行NIS或NCC的系统最小需求是什么？",
+         "nis-and-ncc": "同时运行NIS和NCC的系统最小需求是什么？",
+         "run-node": "我如何运行一个节点（NIS）？",
+         "mobile-wallet": "这里有移动钱包么？",
+         "install-help": "我无法在电脑上安装NEM。我能在哪里获得帮助？",
+
+         "tech-basic": "技术基础",
+         "whats-poi": "这是什么 \"POI\"?",
+         "multisig": "什么是多签账号，它是如何工作的？",
+         "whats-harvest": "什么是收获？",
+         "how-harvest": "我如何才能收获？",
+         "open-port": "我如何打开7890端口？",
+
+         "deep-question": "更深度的问题",
+         "xem-exist": "流通的XEM总共有多少？",
+         "community-fund": "什么是 \"NEM社区基金\"？",
+         "nem-distribution": "NEM初始是如何分配的？",
+         "issue-coins": "我想发行自己的货币以便做些事情。我可以使用NEM么？",
+         "nem-indepth": "关于NEM，哪里我能获得更加深入的信息？"
+      },
+
+      "nem-cryptoContent": "NEM不只是一种加密货币。更重要地，NEM是一种点对点平台。它提供或者将会提供的服务包括支付、信息传递、资产交易和智能合约。NEM是一种不断进化的方案，将带来更多惊喜。",
+
+      "why-nemContent": "比特币是一种加密货币，绝大多数加密币也是。 有些具有应用特性，而有些只是纯粹的加密币。 NEM除了作为一种加密货币，它还是一个解决方案平台。作为一个平台，它可以提供更多用途。作为一种加密货币，它不需要大量的算力和能源就能运行一个节点。通过重要性证明（POI）取代传统的需要大量股权或算力挖矿的方式，NEM也提倡降低参与的门槛。在NEM中，我们称之为收获。另外，它使用一种被称为Eigentrust ++的方案，证实与筛掉网络中的坏节点。作为一个不断进化的方案， NEM正在规划更多好的特性。在初始阶段，NEM将提供以下特性：",
+      "why-nem-1": "基于多签方案的第一块链",
+      "why-nem-2": "一种加密的信息传递方案",
+      "why-nem-3": "收获：一旦收获开始，你不需要钱包始终打开去收获，它可以关闭，钱包不需要始终在线。",
+      "why-nem-4": "被保护的钱包，例如，钱包不需要连接到互联网。它可以隐藏在防火墙后面，只能通过局域网连接到NIS。",
+      "why-nem-5": "密码和私钥不要离开钱包，钱包是被密码保护的。",
+
+      "use-nemContent": "你可以以一个全球范围内很低的花费去快速、安全地发送或者接受支付与消息，而不需要银行账号。你可以在世界范围内购买、售卖、交易资产和货物。未来，将有更多令人激动的特性涌现，例如资产交易、智能合约和彩色币。",
+
+      "whats-xemContent": "\"XEM\" 是NEM的货币代码。它与USD、EUR、CNY、JPY等类似。",
+
+      "loyalty-pointsContent": "NEM的忠诚积分是以收获的形势出现。事实上，这是使用NEM作为平台执行交易的回报。你的交易越多、你的余额越大，你得到回报将越频繁。回报是随机的，有时你获得的多，有时少，取决于你所收获的块链。",
+
+      "OS-supportContent": "使用64位Java运行环境，可以在现有所有流行且支持Java的操作系统上运行NEM软件，包括Windows、Mac OSX和Linux。",
+
+      "bitIntro": "如果你需要安装Java，那么第一步是检查你的浏览器是32位还是64位。请注意：使用64位操作新系统与使用64位浏览器是不同的概念。",
+      "bitChrome": "在Chrome搜索栏中，输入<span>chrome://chrome</span> ，你可以看到版本信息，在最后一行你可以看到版本是32位还是64位。",
+      "bitFirefox": "在Firefox浏览器中，输入<span>about:</span> 。你可看到一行是以Build-Identifier开始，如果在那行，你看到：x86_64，那么你是在使用64位浏览器。如果你看到的是i686，那么你在使用32位浏览器。如果你使用Windows，那么你使用的是32位版本的火狐，当前没有64位Windows版本的火狐浏览器。",
+      "bitOpera": "在Opera中浏览器中，输入 <span>opera:about</span> 。在浏览器识别信息底下，你若看到x86_64，是64位的；看到i686，则是32位的",
+      "bitIE": "在IE浏览器中，很难识别你使用的版本。你可以找到一些线索 $t(a.ieBitVer) 这里</a>，然而，这等于告诉你一个信息，你可以使用上面提到的某一款浏览器取代IE。",
+
+      "javaHeader": "安装Java",
+      "javaText": "检查你的Java版本 $t(a.javaCheck)这里</a>。如果你使用Java 8，升级至25或以上，就可以准备好安装NEM客户端了。<br>记住，选择32位还是64位Java取决于你的浏览器，与你的CPU或OS位版本无关。在这里说明 $t(a.5)检查浏览器位版本</a>",
+
+      "javaWindowsHead": "安装Java - Windows",
+      "javaWindowsVideo": "这里有一段视频 $t(app.tut) 关于如何在Windows 8中安装Java 8，尽管这个操作指南是用于Java 7，与用于Java 8的操作是同样的。 Java选择32位还是64位Java取决于你的浏览器。在这里说明 $t(a.5) 检查浏览器位版本</a>",
+      "javaWindowsMan": "关于安装Java 8，这里也有一个wikihow条目 $t(a.javaWindowsM)这里</a>",
+
+      "javaMacHead": "安装Java - Mac OSX",
+      "javaMacVideo": "这里有一段视频 $t(app.tut) 关于如何在Mac OSX上安装Java。Java选择32位还是64位Java取决于你的浏览器。在这里说明 $t(a.5)检查浏览器位版本</a>",
+      "javaMacMan": "在Java网站上也有Mac OSX的安装 $t(app.tut)，那个可以在这找到 $t(a.javaMacM)这里</a>",
+
+      "javaLinuxHead": "安装 Java - Linux",
+      "javaLinuxVideo": "大量视频关于如何在Ubuntu/Mint中安装Java 8",
+
+      "get-walletContent": "下载NEM一键安装在 $t(a.nemNinjaInstaller) 或者stand-alone版本 at $t(a.nemNinja)。完成安装之后，简单地点击【生成新钱包】。（请确保使用了非常健壮的密码。）",
+      "get-wallet-note": "(注意：只有官方发布最新的已被校验的NEM软件。可能其他地方也提供有效软件，但你需要自己去校验是否能安全地使用。)",
+
+      "strong-passContent": "这更带主观性，取决于用户。一个合理的超过12位的长字符串，由随机选择、没有相关性的字符组成，包含字母、数字和符号应该满足大多数情况。",
+
+      "install-nem-java": "运行NEM软件需要Java 8，因此请确认你的电脑已经安装了最新版本的Java 8。请看上面的视频用于安装指导。",
+      "install-nem-1":  "下载Windows或Mac环境下的安装包在 $t(a.nemNinjaInstaller) 请注意此安装文件只在安装了64位Java的环境中有效。",
+      "install-nem-2": "安装：",
+      "install-nem-3": "下载和解压文件从 $t(a.nemNinjaInstaller)",
+      "install-nem-4": "运行setup文件，按照提示操作。（在Mac上， 你需要右键点击setup文件，然后点击打开）。",
+      "install-nem-alone-1": "对于32位Java，请下载stand-alone客户端在 $t(a.nemNinja).",
+      "install-nem-alone-2": "Windows: Please follow the community-made $t(a.nemWindowsTut)$t(app.tut)</a>.",
+      "install-nem-alone-3": "",
+      "install-nem-alone-4": "Ubuntu (Linux): Please follow the community-made $t(a.nemLinuxTut)$t(app.tut)</a>.",
+      "install-nem-alone-5": "为了允许外部访问你局域网内的节点，你应该在路由器或防火墙上打开7890端口。 你可以参考 $t(a.portGuide)这里</a> 去理解如何做。 或者，参考 \"$t(a.6)我如何打开7890端口</a>\" 在常见问题与解答中提问。 请注意这不是一个强制的需求，是针对高级用户使用的。",
+
+      "get-xemContent": "你可以获得XEM在：",
+      "exchange-1": "POLONIEX",
+      "exchange-2": "BITTREX",
+      "exchange-3": "BTC38",
+      "exchange-guide": "这里是 $t(a.exchangeGuide)$t(app.tut)</a> 在我们论坛上告诉你如何去购买XEM或BTC",
+
+      "nccContent": "NCC代表NEM社区客户端。简单说，这就是钱包。但是我们已经使它应用更加宽泛，因为它是一个web架构的客户端，用户可以在更广泛的应用中使用它而不仅仅只用钱包功能。",
+      "nisContent": "NIS是NEM基础架构服务器。在NEM中，一个NIS作为P2P网络的一个节点存在。每时每刻，它可以确认和保持网络增加有效块链，所以是核心。在网络架构中，NIS是网络和应用服务器。它是强大且轻量级的服务器。任何NCC都可以使用NIS去交易。对于收获（参见收获），一个NCC可以选择或者委托一个NIS去为它收获，而不用暴露NCC自己。",
+
+      "nis-or-ncc-mem": "内存: 768 MB RAM",
+      "nis-or-ncc-cpu": "CPU: 700 MHz",
+      "nis-or-ncc-note": "请注意，这是刚好够运行NEM软件的最小配置。e 为了保证有一个良好的表现，建议使用更高规格的配置。",
+      "nis-or-ncc-mini-pc": "有些小型的计算机和设备能够满足该最小需求：",
+      "nis-or-ncc-mini-pc-1": "$t(a.rasPi)树莓派Model 2</a>",
+      "nis-or-ncc-mini-pc-2": "$t(a.vultr)Vultr每月$5的服务器</a>",
+
+      "nis-and-ncc-mem": "内存: 2 GB+ RAM",
+      "nis-and-ncc-cpu": "CPU: 1 GHz+ （单核或以上）",
+      "nis-and-ncc-small-pc": "一些小的footprint计算机和设备可以满足该最小需求： ",
+      "nis-and-ncc-small-pc-1": "$t(a.nuc)NUC</a>",
+      "nis-and-ncc-small-pc-2": "$t(a.liva)Liva</a>",
+      "nis-and-ncc-small-pc-3": "$t(a.foxconn)Foxconn</a>",
+
+      "run-node-1": "下载、安装、运行NEM基础架构服务器 $t(a.bobNemNinja)(NIS)</a>.",
+      "run-node-2": "为了更高级的用户：",
+      "run-node-3": "如果你想共享NIS或从互联网使用NIS，在你的路由器/防火墙上为运行NIS的计算机 $t(a.6)打开7890端口</a> 。 如果你想从你的局域网之外去访问你的节点，这么做是必须的。如果你仅仅想在你的局域网内运行NCC，则不需要打开该端口。",
+      "run-node-4": "请注意，任何其他人使用你的节点去交易，你的安全不会被损害。密码和私钥永远不要离开你的钱包，它保存在NCC里。如果你想保持NIS始终在线，建议NCC不要运行在同一台终端上。",
+
+      "mobile-walletContent": "移动钱包当前正在开发，iOS和安卓版本很快就会发布。",
+
+      "install-help-1": "如果你需要帮助，请看看这里 <a href=\"https://github.com/NewEconomyMovement/NemCommunityClient/issues\">issues</a> 在github上.",
+      "install-help-2": "阅读NEM博客（即将上线）",
+
+      "whats-poiContent": "POI是\"Proof-of-Importance\"重要性证明的缩写。这是一个一致性算法，是NEM软件的核心。你的重要性越高，你被允许计算一个块（也包括收获这个块里费用）的机率越高。POI调整你的重要性是基于你做了多少笔交易，和谁做的交易以及许多其他因素。如果你不做任何交易，POI将仅仅根据你的余额确定你的重要性（此时与POS股权证明类似）。",
+
+      "multisigContent": "当一个帐号被设置为多签帐号（也即multisig），如果之前定义的相当数量的人签署了交易，支付才能够完成。这很有用，例如，基金不应该被某一个人控制。",
+
+      "whats-harvest-1": "收获是一个过程，即通过节点批准的区块数据被哈希并被放到块链里。一旦被放到块链里，它就变成不可改变和不可逆的记录，除非存在冲突，这种情况下，将有一些自动仲裁，同时块链将被重新调整以实现自动更正。",
+      "whats-harvest-2": "区块数据是一套交易，它们发生在相近的时间框架内，约1分钟。换句话说，每分钟收获都会发生。哈希数据并将其放到区块的过程需要所有机器都参与。这是一个随机的过程，依赖一些因素，以便整个网络中每分钟内只有一个帐号被授予权利去收获。",
+      "whats-harvest-3": "哈希区块数据的帐号将被给予回报。回报多少取决于积累在该区块上的交易费总量。",
+
+      "how-harvestContent": "登录你的钱包并点击\"开始本地收获\". <br><br>需求：用户帐号需要既定余额至少10,000 XEM。",
+
+      "open-port-8": "Our easy $t(a.easyConfig)configuration guide</a>.",
+      "open-port-9": "Guide from $t(a.easyConfig2)WikiHow</a>.",
+      "open-port-10": "",
+      "open-port-11": "",
+
+      "xem-existContent": "总量是8,999,999,999 XEM.",
+
+      "community-fundContent": "NEM社区基金可以提供给任何人去做任何项目。 这只有一个条件：你必须让社区明白并信服你的主意。关于我们社区投票的细节正在制定，很快将宣布。",
+
+      "nem-distributionContent": "NEM是100%预挖和分配的，将近1,500位初始股东。",
+
+      "issue-coinsContent": "简单的答案是Yes。当NEM资产有效时，你可以去发行你自己的货币，且仍然可基于NEM所提供的安全与可信赖。对于NEM平台来说，这是非常基础和前提的。它给了我们大量的灵活性去发行我们自己的货币，不论你想去做什么。",
+
+      "nem-indepth-2": "NCC源代码是有效的在 $t(a.nccSource)",
+      "nem-indepth-3": "NEM $t(a.nisApi) 资源"
+
+   }
+}

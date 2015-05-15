@@ -1,0 +1,262 @@
+﻿{
+   "READ-Translators": "Directly below are different links for this site, change the links only if you can find a better alternative in the language you are translating to, and you are familiar with basic HTML. Anything that starts with 'READ' is a message to the translators, and it does not need to be translated.",
+
+   "a": {
+      "i": "<i class=\"icon-down-open-big\"></i>",
+      "1": "<a href=\"http://blog.nem.io/windows-mac-installation-guide/\">",
+      "3": "<a href=\"comingSoon.html\">",
+      "5": "<a href=\"#OS-supportContent\">",
+      "6": "<a href=\"#how-harvestContent\">",
+      "8btcLink": "<a href=\"http://www.8btc.com/\">",
+      "nemBlog": "<a href=\"http://blog.nem.io/\">Official NEM Blog</a>",
+      "nemInstall": "<a href=\"http://blog.nem.io/windows-mac-installation-guide/\">",
+      "windowsInstall": "<a href=\"http://blog.nem.io/windows-installation-guide-standalone/\">",
+      "ubuntuInstall": "<a href=\"http://blog.nem.io/ubuntu-installation-guide-standalone/\">",
+      "javaCheck": "<a href=\"https://www.java.com/en/download/installed.jsp\">",
+      "javaWindowsM": "<a href=\"http://blog.nem.io/how-to-install-java-8-64-bit-on-windows/\">",
+      "javaMacM": "<a href=\"https://www.java.com/en/download/help/mac_install.xml\">",
+      "nemNinja": "<a href=\"http://bob.nem.ninja/\">bob.nem.ninja</a>",
+      "bobNemNinja": "<a href=\"http://bob.nem.ninja/\">",
+      "nemNinjaInstaller": "<a href=\"http://bob.nem.ninja/installer/\">bob.nem.ninja/installer</a>",
+      "nemWindowsTut": "<a href=\"http://blog.nem.io/windows-installation-guide-standalone/\">",
+      "nemMacTut": "<a href=\"http://blog.nem.io/windows-mac-installation-guide/\">",
+      "nemLinuxTut": "<a href=\"http://blog.nem.io/ubuntu-installation-guide-standalone/\">",
+      "portGuide": "<a href=\"http://blog.nem.io/easy-configuration-guide-opening-port-7890/\">",
+      "exchangeGuide": "<a href=\"\">",
+      "rasPi": "<a href=\"http://www.raspberrypi.org/products/raspberry-pi-2-model-b/\">",
+      "vultr": "<a href=\"https://www.vultr.com/pricing/\">",
+      "nuc": "<a href=\"http://www.intel.com/content/www/us/en/nuc/overview.html\">",
+      "liva": "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16856501007&cm_re=mini_computer-_-56-501-007-_-Product\">",
+      "foxconn": "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16856119080&cm_re=mini_pc-_-56-119-080-_-Product\">",
+      "easyConfig": "<a href=\"http://blog.nem.io/easy-configuration-guide-opening-port-7890/\">",
+      "easyConfig2": "<a href=\"http://www.wikihow.com/Open-Ports\">",
+      "nccSource": "<a href=\"https://github.com/NewEconomyMovement/NemCommunityClient\">Github</a>",
+      "nisApi": "<a href=\"http://bob.nem.ninja/docs/\">NIS API</a>"
+   },
+   "READ-Translators2": "Anything that is closed in brackets, such as '</a>', '<>', '</span>' below this message, should NOT be translated. For example, if you were translating this sentence, do not translate '<span>', but still translate the bold <span>TEXT INSIDE THESE TWO SPAN TAGS</span>",
+   "READ-Translators3": "Do not translate anything that starts with '$', looks like this '$t(a.1)' or this '$t(s.java)'",
+
+   "app": {
+      "now": "HANKI XEM:iä TÄÄLTÄ",
+      "coming": "TULOSSA PIAN",
+      "tut": "ohje",
+      "ninth": "9",
+      "eighth": "8",
+      "seventh": "7",
+      "sixth": "6",
+      "fifth": "5"
+   },
+   "nav":{
+      "client": "SOVELLUS",
+      "buy": "OSTA XEM:iä",
+      "blog": "BLOGI",
+      "support": "<span>SUPPORT $t(a.i)</span>",
+      "tutorial": "TUTORIALS",
+      "helpdesk": "HELP DESK",
+      "faq": "UKK",
+      "update": "PÄIVITYKSET",
+      "lang": "<span><img src=\"img/flags/Finland.png\" alt=\"suomi\"/> $t(a.i)</span>",
+      "READ-Translators4": "lang output should be the name of the translated language"
+   },
+   "clients":{
+      "header1": "NEM Community Client",
+      "about1": "Avaa NEM Beta Client kaikilla ominaisuuksilla internetselaimessari. Helppo kaksivaiheinen prosessi.",
+      "click1": "ASENNA NEM COMMUNITY CLIENT",
+      "help1": "Tarvitsetko apua NEM clientin asennuksessa? $t(a.1) <span>Katso helppokäyttöistä ohjettamme</span></a>",
+
+      "header2": "Kevyt NEM-mobiilisovellus",
+      "about2": "Asenna helppokäyttöinen NEM-mobiilisovellus. Mobiilisovelluksesta löydät kaikki NEM:n tärkeimmät ominaisuudet.",
+      "click2": "TULOSSA PIAN"
+   },
+   "buy":{
+      "header": "Miten voin hankkia XEM:iä?",
+      "box1": "XEM tulee olemaan Bittrexin valikoimassa pian julkaisun jälkeen",
+      "box1click": "$t(app.now)",
+      "box2": "XEM tulee olemaan POLONIEX:n valikoimassa pian julkaisun jälkeen",
+      "box2click": "$t(app.now)",
+      "box3": "Osta XEM:iä suoraan rahalla",
+      "box3click": "$t(app.coming)",
+      "help": "Tarvitsetko apua XEM:n hankkimisessa? $t(a.3) <span>katso lisätietoa täältä</span></a>",
+      "help2": "Tarvitsetko apua XEM:n hankkimisessa? $t(a.3) <span><br>katso lisätietoa täältä</span></a>"
+   },
+   "footer":{
+      "logotext": "NEM on liike, jonka tarkoituksena on luoda uusi talousjärjestelmä, joka perustuu taloudellisen vapauden, yhdenvertaisuuden ja desentralisaation periaatteisiin.",
+      "resources": "Resurssit",
+      "resources1": "NEM Github",
+      "resources2": "NEM Joukkomyynti",
+      "resources3": "Lopullinen listaus osuuksista",
+      "resources4": "NIS API",
+      "resources5": "NCC API",
+      "resources6": "",
+
+      "articles": "Artikkelit",
+      "articles1": "NEM Vice-lehdessä",
+      "articles2": "NEM Yahoo Finance",
+      "articles3": "NEM Cointelegraph",
+      "articles4": "",
+      "articles5": "",
+      "articles6": "",
+
+      "newsletters": "Uutislehti",
+      "newsletters1": "Uutislehti $t(app.ninth)",
+      "newsletters2": "Uutislehti $t(app.eighth)",
+      "newsletters3": "Uutislehti $t(app.seventh)",
+      "newsletters4": "Uutislehti $t(app.sixth)",
+      "newsletters5": "Uutislehti $t(app.fifth)",
+      "newsletters6": "Arkisto"
+   },
+   "faqs":{
+      "headerFaqs": "UKK",
+
+      "nav":{
+         "gen-question": "Yleiset kysymykset",
+         "nem-crypto": "Onko NEM kryptovaluutta?",
+         "why-nem": "Miksi käyttäisin NEM:iä, vaikka Bitcoin on jo olemassa?",
+         "use-nem": "Mitä voin tehdä NEM:llä?",
+         "whats-xem": "Mitä XEM on?",
+         "loyalty-points": "Luottokortien käytöstä saa uskollisuusbonuksia. Saako NEM:n käytöstä?",
+
+         "get-started": "Aloittaminen",
+         "OS-support": "Mitä käyttöjärjestelmiä tuetaan?",
+         "browser-bit": "Miten tarkistan selaimeni bittiversion?",
+         "install-java": "Miten asennan Javan?",
+         "get-wallet": "Mistä löydän NEM-lompakon?",
+         "strong-pass": "Miten määrittelette vahvan salasanan?",
+         "install-nem": "Miten asennan NEM-sovelluksen?",
+         "get-xem": "Mistä voin saada XEM:iä?",
+         "ncc-nis": "Mitä NCC ja NIS ovat?",
+         "nis-or-ncc": "Mitkä ovat järjestelmän minimivaatimukset joko NIS:n TAI NCC:n käyttämiseen?",
+         "nis-and-ncc": "Mitkä ovat järjestelmän minimivaatimukset sekä NIS:n että NCC:n yhtäaikaiseen käyttämiseen?",
+         "run-node": "Miten voin olla osa NEM-verkkoa? (NIS)",
+         "mobile-wallet": "Onko NEM:llä mobiililompakkoa?",
+         "install-help": "En osaa asentaa NEM:iä tietokoneelleni. Mistä voin saada apua?",
+
+         "tech-basic": "Perusasiat teknologiasta",
+         "whats-poi": "Mikä on \"POI\"?",
+         "multisig": "Mitä ovat Multi-user -tilit ja miten ne toimivat?",
+         "whats-harvest": "Mitä louhinta on?",
+         "how-harvest": "Miten voin louhia?",
+         "open-port": "Miten voin avata portin 7890?",
+
+         "deep-question": "Syventävät kysymykset",
+         "xem-exist": "Kuinka paljon XEM:iä on kierrossa?",
+         "community-fund": "Mikä \"NEM Community Fund\" on?",
+         "nem-distribution": "Millä tavalla NEM jaettiin alun alkujaan?",
+         "issue-coins": "Haluaisin laskea liikkeeseen omia kolikoitani omaa käyttötarkoitustani varten. Voinko käyttää tähän NEM:iä?",
+         "nem-indepth": "Mistä voin löytää lisää syventävää tietoa NEM:stä?"
+      },
+
+      "nem-cryptoContent": "NEM ei ole ainoastaan kryptovaluutta, vaan se on vertaisverkkoalusta, joka mahdollistaa mm. maksujen tekemisen, viestien lähettämisen, omaisuuden vaihdannan sekä älykkäät sopimukset (smart contracts) käyttäjien kesken. Lisää ominaisuuksia on vielä tulossa, sillä NEM on alati kehittyvä alusta.",
+
+      "why-nemContent": "Bitcoin on kryptovaluutta samalla tapaa kuin monet muutkin kryptokolikot ovat. Jotkin ovat tarkoitettuja vain tietyille ohjelmistoille, jotkut ovat taas puhtaita kryptokolikoita. NEM erottuu muista kryptovaluutoista olemalla ratkaisualusta. Ratkaisualustana NEM pystyy tarjoamaan paljon enemmän kuin olemalla pelkästään kryptovaluutta. Kryptovaluuttana NEM ei tarvitse paljon tehoa tietokoneelta eikä verkon osana oleminen kuluta paljon energiaa. NEM puoltaa myös helppoa käyttöönottamista Proof of Importancen (POI) muodossa, sillä et enää tarvitse (kuten muilla kryptovaluutoilla) tehokkaita tietokoneita tai suurta omistusosuutta louhiaksesi lisää kryptovaluuttaa. NEM kutsuu tätä louhinnaksi. Tämän lisäksi NEM käyttää Eigentrust++ teknologiaa löytääkseen ja seuloakseen pahantekijät verkosta. Yhä parempia asioita on vielä tulossa, sillä NEM on alati kehittyvä ratkaisualusta. Aloitusvaiheessa NEM tarjoaa tämän:",
+      "why-nem-1": "Ensimmäinen blockchain-teknologiaan perustuva multisig-ratkaisu.",
+      "why-nem-2": "Ratkaisu kryptattujen viestien lähettämiseen.",
+      "why-nem-3": "Louhinta: Sinun ei tarvitse pitää lompakkoasi avoinna kun louhinta on aloitettu. Lompakon voi sulkea eikä sen tarvitse olla yhteydessä verkkoon.",
+      "why-nem-4": "Suojattu lompakko: Lompakon ei tarvitse olla yhteydessä internetiin. Se voi pysyä piilossa palomuurin takana ja olla yhteydessä NIS:iin ainoastaan LAN-verkossa.",
+      "why-nem-5": "Salasana ja Private Key pysyvät lompakossa sekä lompakko itse on suojattu salasanalla.",
+
+      "use-nemContent": "Voit lähettää ja vastaanottaa maksuja sekä viestejä nopeasti, turvallisesti ja pienin kustannuksin maailmanlaajuisesti ilman, että tarvitsisit pankkitiliä. Voit myös ostaa, myydä ja vaihtaa omaisuutta maailmanlaajuisesti. Lisää hienoja ominaisuuksia, kuten omaisuudenvaihto, smart contracts ja colored coins, ovat tulossa tulevaisuudessa.",
+
+      "whats-xemContent": "\"XEM\" on NEM:n valuuttakoodi samassa merkityksessä kuin USD, EUR, CNY, JPY jne. ovat",
+
+      "loyalty-pointsContent": "NEM:n uskollisuusbonukset tulevat louhinnan myötä. Ne ovat korvauksia NEM:n käyttämisestä siirtojen tekoon. Mitä enemmän teet siirtoja ja mitä suurempi XEM-saldo sinulla on, sitä useammin saat korvauksia. Korvauksen määrä on sattumanvarainen, joskus saat enemmän ja joskus taas vähemmän, riippuen siitä minkä blockin saat louhittua.",
+
+      "OS-supportContent": "64-Bittisellä Javalla pystyt käyttämään NEM:iä kaikilla suosituimmilla käyttöjärjestelmillä, kuten Windowsilla, Macilla ja Linuxilla.",
+
+      "bitIntro": "Jos sinun täytyy asentaa Java, niin ensimmäiseksi sinun täytyy tarkistaa onko selaimesi 32- vai 64-bittinen. Huomioi, ettei 64-bittinen käyttöjärjestelmä ole sama asia kuin 64-bittinen selain.",
+      "bitChrome": "Jos käytät Chromea, kirjoita <span>chrome://chrome</span> hakukenttään. Tältä sivulta näet, mitä Chromen versiota käytät. Jos sinulla on 64-bittinen Chrome, lukee se versionumeron lopussa, muussa tapauksessa sinulla on käytössä 32-bittinen Chrome.",
+      "bitFirefox": "Jos käytät Firefoxia, kirjoita <span>about:</span> selaimeesi. Tältä sivulta näet selaimesi tunnisteen. Jos näet tunnisteessa merkit \"x86_64\", käytät 64-bittistä Firefoxia. Jos taas näet merkit \"i686\", käytössäsi on 32-bittinen Firefox. Jos käytät Windowsia, sinulla on käytössä 32-bittinen Firefox, koska 64-bittistä Firefoxia ei ole vielä olemassa Windowsille.",
+      "bitOpera": "Jos käytät Operaa, kirjoita <span>opera:about</span> selaimeesi. Jos näet selaimen tunnisteessat merkit \"x86_64\", on selaimesi 64-bittinen. Jos taas näet merkit \"i686\", on selaimesi 32-bittinen.",
+      "bitIE": "Internet Explorerin bittiversion selvittäminen voi olla hankalaa. Joitakin vinkkejä bittiversion selvittämiseen voit löytää $t(a.ieBitVer) TÄÄLTÄ</a>. Sinun pitäisi ottaa tämä merkkinä siitä, että sinun pitäisi ehkä siirtyä käyttämään jotakin toista edellä mainittua selainta.",
+
+      "javaHeader": "Asennetaan Javaa",
+      "javaText": "Tarkista mikä Javan versio sinulla on asennettuna $t(a.javaCheck)TÄÄLTÄ</a>. Jos käytössäsi on Java version 8, update 25 tai uudempi, voit asentaa NEM Clientin.<br>Kun valitset Javan bittiversiota (32- tai 64-bittinen), varmista, että valitset bittiversion selaimesi version mukaan. Tietokoneen käyttöjärjestelmän tai prosessorin bittimäärällä ei ole tässä asiassa merkitystä. Selaimen bittiversion selvittämisestä oli aiemmin puhetta $t(a.5)täällä.</a>",
+
+      "javaWindowsHead": "Javan asennus Windowsille",
+      "javaWindowsVideo": "Tästä löydät videon $t(app.tut) Java 8:n asennuksesta Windows 8:lle. Vaikkakin videon ohjeet ovat tehty Java 7:lle, ne toimivat myös Java 8:n asennuksessa. Kun valitset Javan bittiversiota (32- tai 64-bittinen), varmista, että valitset bittiversion selaimesi version mukaan. Selaimen bittiversion selvittämisestä oli aiemmin puhetta $t(a.5)täällä.</a>",
+      "javaWindowsMan": "Löydät myös Wikihow:n ohjeen Java 8:n asennuksesta $t(a.javaWindowsM)TÄÄLTÄ</a>",
+
+      "javaMacHead": "Javan asennus MAC OSX:lle",
+      "javaMacVideo": "Tästä löydät videon $t(app.tut) Java 8:n asennuksesta Mac OSX:lle. Kun valitset Javan bittiversiota (32- tai 64-bittinen), varmista, että valitset bittiversion sen mukaan moniko bittinen selaimesi versio on. Selaimen bittiversiosta oli aiemmin puhetta $t(a.5)täällä.</a>",
+      "javaMacMan": "Löydät myös hyvänAlso the Java website has a good Mac OSX install $t(app.tut), that can be found $t(a.javaMacM)HERE</a>",
+
+      "javaLinuxHead": "Javan asennus Linuxille",
+      "javaLinuxVideo": "Hyvä ohjevideo Java 8:n asentamisesta Ubuntulle tai Mintille.",
+
+      "get-walletContent": "Lataa yhden klikkauksen asennustiedosto täältä $t(a.nemNinjaInstaller) tai asenna NEM:n stand-alone -versio täältä $t(a.nemNinja). Asennuksen jälkeen klikkaa kohtaa [Create New Wallet]. (Muistathan käyttää todella vahvaa salasanaa.)",
+      "get-wallet-note": "(Note: These are the ONLY official sites that distribute the latest and verified NEM software. There may be others available elsewhere, but you will need to verify for yourself if they are in fact safe to use.)",
+
+      "strong-passContent": "Vahvan salasanan määritelmä riippuu käyttäjästä ja on suhteellisen subjektiivinen näkemys. 12 tai pidemmän satunnaisen merkin sekoitus, joka koostuu kirjaimista, numeroista sekä symboleista pitäisi olla riittävän vahva salasana useimmissa tapauksissa.",
+
+      "install-nem-java": "NEM-ohjelmisto vaatii toimiakseen Javan 8-version, joten varmista että sinulla on käytössä Javan viimeisin versio. Ohjeita Java 8:n asennukseen löydät yläpuolelta.",
+      "install-nem-1":  "Lataa asentaja Windowsille tai Macille täältä $t(a.nemNinjaInstaller). Tämä asentaja toimii ainoastaan, jos sinulla on 64-bittinen Java asennettuna.",
+      "install-nem-2": "Asennus:",
+      "install-nem-3": "Lataa ja pura asennustiedosto täältä $t(a.nemNinjaInstaller)",
+      "install-nem-4": "Käynnistä purettu asennustiedosto ja seuraa ohjeita. (Macin käyttäjät saattavat joutua klikkaamaan asennustiedostoa hiiren oikealla näppäimellä ja valitsemaan \"Avaa\").",
+      "install-nem-alone-1": "Jos käytät 32-bittistä Javaa, lataa stand-alone client täältä $t(a.nemNinja).",
+      "install-nem-alone-2": "Windows: Seuraa NEM-yhteisön tekemiä ohjeita $t(a.nemWindowsTut)$t(app.tut)</a>.",
+      "install-nem-alone-3": "",
+      "install-nem-alone-4": "Ubuntu (Linux): Seuraa NEM-yhteisön tekemiä ohjeita $t(a.nemLinuxTut)$t(app.tut)</a>.",
+      "install-nem-alone-5": "Jos haluat sallia yhteydet LAN-verkkosi ulkopuolelta, sinun täytyy avata portti 7890 palomuuristasi. Ohjeen portin avaamiseen löydät $t(a.portGuide)tästä linkistä</a>. Toissijaisesti voit katsoa ohjeen myös \"$t(a.6)How do I open Port 7890?</a>\" -kohdasta UKK-sivulla. Ota huomioon, että tämä ei ole pakollista ja sitä suositellaan vain edistyneimmille käyttäjille.",
+
+      "get-xemContent": "Voit hankkia XEM:iä täältä:",
+      "exchange-1": "POLONIEX",
+      "exchange-2": "BITTREX",
+      "exchange-3": "BTC38",
+      "exchange-guide": "Tästä löydät $t(a.exchangeGuide)$t(app.tut)</a> keskustelualueellamme, joka opastaa miten ostaa XEM:iä Bitcoineilla.",
+
+      "nccContent": "NCC on lyhennys sanoista NEM Community Client. Lyhyesti selitettynä se on lompakko, mutta emme kuitenkaan nimenneet sitä lompakoksi, koska se pystyy paljon muuhunkin kuin vain pelkkä lompakko.",
+      "nisContent": "NIS on lyhennys sanoista Network Infrastructure Server. NIS on osa NEM-verkkoa samalla tapaa kuin käyttäjät ovat osa p2p-verkkoa. Se varmistaa, että verkko ja blockchain pysyvät koko ajan terveinä. NIS on sekä Web-, että ohjelmistopalvelin webarkkitehtuurissa. Se on kevyt, mutta silti tehokas palvelin. Jokainen NCC voi käyttää NIS:tä siirtojen tekemiseen. Voit asettaa NIS:n tehtäväksi louhia NCC:n kautta ilman, että paljastaisit itsesi koko verkolle.",
+
+      "nis-or-ncc-mem": "Muistia: 768 MB RAM",
+      "nis-or-ncc-cpu": "Prosessori: 700 MHz",
+      "nis-or-ncc-note": "Huomaa, että nämä ovat ainoastaan minimivaatimukset NEM-ohjelmistolle. Parempaa laitteistoa suositellaan paremman suorituskyvyn saavuttamiseksi.",
+      "nis-or-ncc-mini-pc": "Lista joistakin minitietokoneista ja laitteista, jotka täyttävät nämä minimivaatimukset:",
+      "nis-or-ncc-mini-pc-1": "$t(a.rasPi)Raspberry Pi Model 2</a>",
+      "nis-or-ncc-mini-pc-2": "$t(a.vultr)Vultr-palvelin ($5/kk)</a>",
+
+      "nis-and-ncc-mem": "Muistia: 2 GB+ RAM",
+      "nis-and-ncc-cpu": "Prosessori: 1 GHz+ (yksiytiminen tai parempi)",
+      "nis-and-ncc-small-pc": "Lista joistakin minitietokoneista ja laitteista, jotka täyttävät nämä minimivaatimukset:",
+      "nis-and-ncc-small-pc-1": "$t(a.nuc)NUC</a>",
+      "nis-and-ncc-small-pc-2": "$t(a.liva)Liva</a>",
+      "nis-and-ncc-small-pc-3": "$t(a.foxconn)Foxconn</a>",
+
+      "run-node-1": "Lataa, asenna ja käynnistä NEM Infastructure Server $t(a.bobNemNinja)(NIS)</a>.",
+      "run-node-2": "Vaativampaan käyttöön:",
+      "run-node-3": "Jos haluat jakaa NIS:si tai jos haluat ottaa yhteyden siihen internetistä, $t(a.6)avaa portti 7890</a> reitittimestäsi/palomuuristasi siltä tietokoneelta, jolla sinulla on NIS käynnissä. Tämä vaaditaan jos haluat olla yhteydessä NIS:iin LAN-verkkosi ulkopuolelta. Sinun ei tarvitse avata edellä mainittua porttia jos käytät NCC:tä vain LAN-verkossasi.",
+      "run-node-4": "Huomioi, että voit antaa muiden vapaasti käyttää NIS-palvelintasi siirtojen tekoon ilman, että vaarantaisit omaa turvallisuuttasi. Salasana ja private keyt eivät koskaan poistu lompakostasi, joka on NCC:ssäsi. Emme suosittele, että käyttäisit NCC:tä samalla tietokoneella kuin NIS-palvelin, jos tarkoituksesi on pitää NIS:iä koko ajan päällä.",
+
+      "mobile-walletContent": "Mobiililompakko on kehitteillä ja se tullaan julkaisemaan pian sekä iOS:lle että Androidille.",
+
+      "install-help-1": "Jos tarvitset apua, katso <a href=\"https://github.com/NewEconomyMovement/NemCommunityClient/issues\">issues</a> -sivua githubissa.",
+      "install-help-2": "Lue NEM-blogia (Tulossa pian)",
+
+      "whats-poiContent": "POI on lyhennys sanoista \"Proof-of-Importance\". Se on algoritmi aivan NEM-ohjelmiston ytimessä. Mitä tärkeämpi (importance) olet NEM-verkolle, sitä useammin pystyt käsittelemään blockin (ja louhimaan blockin sisältämät siirtokulut). Tärkeytesi NEM-verkolle riippuu monesta muuttujasta, kuten siitä kuinka paljon siirtoja teet ja kenen kanssa niitä teet. Jos et tee yhtään siirtoja, tärkeytesi perustuu ainoastaan tilisi saldoon (samalla tapaa kuin proof-of-stake valuutoissa).",
+
+      "multisigContent": "Jos teet tilistäsi multi-user accountin (ts. multisig), voit lähettää maksuja ainoastaan silloin, kun ennalta määrätty määrä muita henkilöitä allekirjoittaa siirtosi (ts. hyväksyy sen). Tämä ominaisuus on erittäin käytännöllinen niissä tilanteissa, kun rahojen hallintaa ei ole haluttu antaa vain yhdelle henkilölle.",
+
+      "whats-harvest-1": "Louhinta on prosessi, jossa verkon käyttäjät validioivat blockin dataa, jonka jälkeen tämä block tulee osaksi blockien ketjua, blockchainia. Kun block on osa blockchainia, tulee siitä peruuttamaton ja muuttumaton osa sitä, paitsi jos datassa esiintyy jokin konflikti. Siinä tapauksessa blockchain korjaa itsensä automaattisesti.",
+      "whats-harvest-2": "Tämä block sisältää dataa siirroista, jotka ovat tapahtuneet n. yhden minuutin sisällä. Toisin sanoen, louhintaa tapahtuu verkossa noin minuutin välein. Datan käsittely ja sen laittaminen blockiin edellyttää, että tietokone tekee jonkin verran työtä. Blockin voi louhia ainoastaan yksi tili kerrallaan koko NEM-verkossa, ja tämän tilin valinta on suhteellisen sattumanvarainen, johon vaikuttaa muutama muuttuja.",
+      "whats-harvest-3": "Blockin louhinut tili saa korvauksen tehdystä työstä. Korvauksen määrä riippuu siirtomaksujen yhteenlasketusta määrästä louhitussa blockissa.",
+
+      "how-harvestContent": "Kirjaudu sisään lompakkoosi ja klikkaa kohtaa \"Start local harvesting\". <br><br>Requirement: The user account needs a vested balance of at least 10,000 XEM.",
+
+      "open-port-8": "Our easy $t(a.easyConfig)configuration guide</a>.",
+      "open-port-9": "Guide from $t(a.easyConfig2)WikiHow</a>.",
+      "open-port-10": "",
+      "open-port-11": "",
+
+      "xem-existContent": "XEM:iä on olemassa yhteensä 8,999,999,999.",
+
+      "community-fundContent": "NEM community fund on rahasto, joka on jokaisen käytettävissä. Sen käyttöön sisältyy vain yksi ehto: sinun täytyy vakuuttaa yhteisö tukemaan ideaasi. Tarkempia tietoja yhteisön äänestysmenettelystä tullaan antamaan tulevaisuudessa.",
+
+      "nem-distributionContent": "NEM esilouhittiin 100-prosenttisesti ja jaettiin n. 1500 osuudenhaltijan kesken.",
+
+      "issue-coinsContent": "Kyllä, yksinkertaisesti vastattuna. Voit laskea liikkeelle omia kolikoita, kun NEM assets tulee saataville. Hyödyt samalla NEM:n tarjoamasta turvallisuudesta ja luotettavuudesta. Se onkin koko NEM-alustan tarkoitus. NEM tarjoaa paljon joustavuutta kolikoiden liikkeeseen laskemiseen eikä se rajoita niiden käyttötarkoitusta mitenkään.",
+
+      "nem-indepth-2": "NCC:n lähdekoodin löydät täältä $t(a.nccSource)",
+      "nem-indepth-3": "NEM $t(a.nisApi) resource"
+
+   }
+}

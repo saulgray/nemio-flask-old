@@ -1,0 +1,19 @@
+{
+	"build": {
+		"gumbyPath": "bower_components/gumby",
+		"outPath": "js"
+        },
+        "modules": [
+            "fixed",
+            "navbar",
+            "retina",
+            "skiplink",
+				"toggleswitch"
+        ],
+        "addons": [
+            "bower_components/gumby-parallax/gumby.parallax.js",
+            "bower_components/gumby-inview/gumby.inview.js",
+				"bower_components/gumby-shuffle/gumby.shuffle.js",
+				"bower_components/i18next/i18next.js"
+        ]
+}

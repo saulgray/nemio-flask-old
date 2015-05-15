@@ -1,0 +1,1180 @@
+@import '../bower_components/gumby-parallax/_parallax.scss';
+// GUMBY OVERRIDES START
+.row{
+   padding-left: 0px;
+   padding-right: 0px;
+}
+// GUMBY OVERRIDES END
+//**## COLOR PALLETE START ##**//
+$green: #41bf76;
+$greenLite: rgba(65,191,118,0.6);
+$white: white;
+$offWhite: #fff;
+$whiteBackground: #f6f6f6;
+$black: #000;
+$darkestGray: #222;
+$darkerGray: #2f2f2f;
+$darkGray: #444;
+$gray: #555;
+$fontGray: #a4a4a4;
+$grayTransparent: rgba(255,255,255,0.95);
+$primaryFont: 'Roboto', Arial, sans-serif;
+
+$terminalFont: monospace;
+$terminalColor: $offWhite;
+$terminalBackground: rgba(45,45,45,0.5);
+
+$arrowWhite: rgba(255,255,255,1);
+$arrowTransparent: rgba(255,255,255,0.2);
+//**## COLOR PALLETE END ##**//
+.warning.alert{
+   text-align: center;
+   margin-bottom: 0px;
+   i{
+      padding-left: 100px;
+      @include respond("max-width: 960px") {
+         padding-left: 10px;
+      }
+   }
+}
+// BACKGROUND IMAGES THROUGHOUT START =========
+.parallax1{
+   background: url(../img/about-bg.jpg) no-repeat;
+   background-size: cover;
+   margin-top: 0px;
+   padding-top: 0px;
+}
+.parallax2{
+   background: url(../img/geometry.png) repeat;
+}
+.parallax3{
+   background-color: $gray;
+   background-size: cover;
+   margin-top: 0px;
+   padding-top: 0px;
+}
+.parallax4{
+   background: url(../img/concrete_seamless.png) repeat;
+}
+.parallaxTop{
+   background: url(../img/city-scape2.jpg) no-repeat;
+   background-size: cover;
+   min-height: 400px;
+   height: 100%;
+}
+.parallaxTopFAQ{
+   background: url(../img/city-scape2.jpg) no-repeat;
+   background-size: cover;
+   height: 260px;
+}
+// BACKGROUND IMAGES THROUGHOUT END =========
+
+// UNDERLINE NAVBAR HOVER STATE START ==========
+a > span {
+   position: relative;
+   color: $darkGray;
+   text-decoration: none;
+   font-family: $primaryFont
+}
+a > span:hover, a > i:hover {
+   color: $green !important;
+}
+a > span:before {
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   margin-bottom: -15px;
+   background-color: $green;
+   visibility: hidden;
+   -webkit-transform: scaleX(0);
+   transform: scaleX(0);
+   -webkit-transition: all 0.3s ease-in-out 0s;
+   transition: all 0.3s ease-in-out 0s;
+}
+.mainPast ul a > span:before, .mainPast ul a > i:before{
+   background-color: $green;
+}
+a > span:hover:before {
+   visibility: visible;
+   -webkit-transform: scaleX(1);
+   transform: scaleX(1);
+}
+a:before:hover{
+}
+// UNDERLINE NAVBAR HOVER STATE END ==========
+.navbar ul li > a{
+   padding-right: 0px;
+   padding-left: 0px;
+   margin-right: 0px;
+   margin-left: 0px;
+   text-shadow: none;
+   color: $darkGray;
+   font-family: $primaryFont;
+   font-size: 14px;
+}
+.navbar ul li > a:hover{
+   background: transparent;
+}
+.gumby-no-touch .navbar ul li:hover > a, .gumby-touch .navbar ul li.active > a, .navbar, .skiplink{
+   background: transparent;
+}
+.gumby-no-touch .navbar ul li:hover .dropdown{
+   border-top: none;
+   background: $grayTransparent;
+}
+.gumby-no-touch .navbar ul li:hover .flags{
+   padding-top: 0px;
+   padding-bottom: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   width: 60px;
+   margin-left: 23px;
+}
+// .gumby-no-touch .navbar ul li:hover .flags ul li{
+//       padding-top: 0px !important;
+//       padding-bottom: 0px !important;
+//       margin-top: 0px !important;
+//       margin-bottom: 0px !important;
+// }
+.gumby-no-touch .navbar li .dropdown ul li a:hover{
+   background: transparent !important;
+}
+nav{
+   width: 100%;
+   height: 20%;
+   padding: inherit !important;
+   background-color: $white;
+   text-transform: uppercase;
+   .three.columns.logo{ //nem logo
+      margin-top: 25px;
+   }
+   .nine.columns{
+      margin-top: 2.5%;
+      text-align: inherit;
+      li span img{ //flags
+         position: relative;
+         top: 5px;
+      }
+      .dropdown{
+         margin-top: -10px;
+         margin-left: 0px;
+         border-top: none;
+         max-width: 140px;
+         @include border-radius(2px);
+            ul li a{
+               border: none;
+            }
+            a > span:before {
+               background-color: transparent;
+               margin-bottom: 0px;
+            }
+         }
+
+      li{
+         min-width: 60px;
+         text-align: center;
+      }
+      a{
+         text-align: inherit;
+         font-weight: 300;
+      }
+      span:hover{
+         @include transition(all .6s);
+         color: $green;
+         font-weight: 300;
+      }
+   }
+}
+nav.fixed{
+   width: 100%;
+   background: $white;
+   z-index: 10000;
+   @include hidden(all-phones);
+   @include hidden(portrait-tablet);
+   height: 65px;
+   .three.columns.logo{
+      margin-top: -5px;
+      img{
+         width: 100px;
+      }
+   }
+   .nine.columns{
+      margin-top: 5px;
+      li span img{
+         position: relative;
+         top: 5px;
+      }
+      .dropdown{
+         margin-top: -10px;
+         margin-left: 0px;
+      }
+   }
+
+   a > span:before {
+      margin-bottom: -2px;
+   }
+}
+i.icon-down-open-big{
+   margin: 0;
+}
+#modal1{
+   position: absolute;
+   right: 0;
+   padding: 10px 30px;
+   margin: 25px;
+   padding-left: 10px;
+   @include border-radius(6px);
+   background-color: $greenLite;
+   color: $white;
+}
+#modal1 a{
+   color: $white;
+}
+.headline{
+   text-align: inherit;
+   margin-top: 30%;
+}
+.headline svg{
+   max-height: 490px !important;
+}
+.laptop{
+   text-align: left;
+   padding-left: 0px;
+   margin-top: 70px;
+   z-index: -11111;
+}
+.laptop img{
+   position: relative;
+   right: -45%;
+   opacity: 1;
+   @include transition(all .8s);
+   @include transition-timing-function(ease-out);
+}
+.laptop img.onscreen {
+   right: 0%;
+   opacity: 1;
+}
+.mainClient{
+   position: relative;
+   z-index: 1;
+   min-height: 62px;
+}
+.clientTextSlide{
+   position: relative;
+left: -10%;
+opacity: 0;
+z-index: 160;
+   @include transition(all .3s);
+}
+.clientTextSlide.onscreen {
+   left: 0%;
+   opacity: 1;
+   z-index: 160;
+@include transition(all .8s);
+@include transition-timing-function(ease);
+@include transition-delay(.7s);
+}
+.thirdParty{
+   position: relative;
+   right: -10%;
+   opacity: 0;
+   @include transition(all .8s);
+   @include transition-timing-function(ease-out);
+   @include transition-delay(1.4s);
+}
+.thirdParty.onscreen {
+   right: 0%;
+   opacity: 1;
+}
+.mainClientWrap{
+   margin-top: 0px;
+}
+.mainClient{
+   text-align: left;
+   margin-top: 14%;
+   margin-bottom: 100px;
+   h3{
+      font-weight: 700;
+      padding-left: 0%;
+      margin-bottom: 7px;
+   }
+   .descrip{
+      font-weight: 300;
+      margin-bottom: 30px;
+      padding-left: 0%;
+      font-size: 105%;
+   }
+   p{
+      margin-bottom: 0px;
+      .button{
+         width: 260px;
+         text-align: center;
+         margin-bottom: 0px !important;
+      }
+   }
+}
+.needHelp{
+   padding-left: 0%;
+   font-size: 95%;
+   font-weight: 300;
+   span{
+      color: $green;
+      font-size: 14px;
+      font-weight: 500;
+   }
+   a > span:hover {
+      color: $green !important;
+   }
+   a > span:before {
+      margin-bottom: -2px;
+      background-color: $green;
+   }
+}
+
+.comingS{
+   font-weight: 500;
+   font-size: 12px;
+   color: $darkGray !important;
+}
+.thirdPartyButton{
+   padding-right: -30px;
+}
+.thirdParty{
+   text-align: right;
+   margin-bottom: 50px;
+   h3{
+      font-weight: 700;
+   }
+   p{
+      margin-left: 16%;
+      font-weight: 300;
+   }
+}
+.stats{
+   text-align: center;
+   background-color: $darkGray;
+   padding-top: 70px;
+   padding-bottom: 70px;
+   .statNumbers{
+      font-size: 300%;
+      margin-bottom: 20px;
+      color: $green;
+      font-weight: 300;
+   }
+   .statWords{
+      font-size: $norm;
+      color: $white;
+   }
+   .statInfo{
+      margin-top: 0;
+   }
+}
+.statInfo{
+   @include fancytiles(4,4,2);
+}
+.clientNem{
+   padding-top: 70px;
+   padding-bottom: 70px;
+}
+.test2{
+   position: relative;
+   z-index: 1;
+   min-height: 62px;
+}
+.purchase .eleven.columns.centered{
+   margin-top: 10px;
+   margin-bottom: 7px;
+   font-weight: 300;
+   a{
+      color: $gray;
+      @include transition(all .6s);
+      @include transition-timing-function(ease-out);
+   }
+   a:hover{
+      color: $greenLite;
+      @include transition(all .6s);
+      @include transition-timing-function(ease-out);
+   }
+}
+.buyColumns{
+@include fancytiles(2,2,2);
+text-align: center;
+}
+.purchase .ten.columns.centered{
+   margin-top: 20px;
+   font-weight: 300;
+}
+.purchase{
+   text-align: center !important;
+}
+.joined{
+   min-height: 230px;
+}
+.joined2{
+   min-height: 200px;
+}
+.arrows{
+   padding-top: 18px;
+   width: 60px;
+}
+.money{
+   padding-top: 7px;
+   width: 90px;
+}
+.bitcoin{
+   width: 65px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+.cart{
+   width: 70px;
+   padding-top: 10px;
+   padding-bottom: 15px;
+}
+.nemIcon{
+   width: 65px;
+   padding-top: 13px;
+}
+.button {
+   margin: .4em;
+   padding: .8em;
+   cursor: pointer;
+   background: transparent;
+   text-decoration: none;
+   border: 3px solid $darkGray;
+   color: $gray;
+   font-weight: 500;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   width: 160px;
+   @include border-radius(3px);
+}
+
+.border.otherXchange{
+   min-height: 30px;
+   padding: 1% 0% .5% 0%;
+   margin-top: 20px;
+   background-color: $white;
+   .inside {
+      @include fancytiles(6,6,3);
+   }
+   .inside img{
+      max-height: 16px;
+   }
+
+   .inside2 img{
+      max-height: 20px !important;
+   }
+
+}
+.buyGuide{
+   margin-top: 50px;
+   margin-bottom: 70px !important;
+   padding-top: 10px;
+   margin-bottom: 10px;
+   width: 100% !important;
+   margin-bottom: 30px;
+   background-color: transparent;
+   text-align: center;
+   position: relative;
+   left: -40px;
+   opacity: 0;
+   @include transition(all .8s);
+   @include transition-timing-function(ease-out);
+   h5{
+      font-size: 18px;
+   }
+   span{
+      color: $green;
+      font-size: 16px;
+      font-weight: 500;
+   }
+   a > span:hover {
+      color: $green !important;
+   }
+   a > span:before {
+      margin-bottom: -2px;
+      background-color: $green;
+   }
+}
+#buybox2{
+   padding-top: -10px;
+}
+#buybox3{
+   padding-top: 30px;
+}
+.buyGuide.onscreen {
+   left: 0px;
+   opacity: 1;
+}
+.comingSoon{
+   border: none;
+   font-size: 12px;
+   font-weight: bold;
+   margin-top: 132px;
+}
+.heading3{
+   padding-top: 70px;
+   padding-bottom: 50px;
+   background: transparent;
+   text-align: center;
+}
+.border{
+   min-height: 340px;
+   padding: 2%;
+   margin-top: 0px;
+   background-color: $white;
+}
+//TESTIMONIALS START HERE
+.testimonials{
+   text-align: right;
+   background-color: $darkGray;
+   padding-top: 70px;
+   padding-bottom: 70px;
+
+   .testimWrap{
+      font-size: 300%;
+      margin-bottom: 20px;
+      padding-right: 4% !important;
+      padding-left: 4% !important;
+      color: $white;
+      font-weight: 300;
+      @include fancytiles(3,3,1);
+   }
+   .user1, .user2, .user3{
+      font-weight: 500 !important;
+      word-wrap:break-word;
+   }
+   .user1comment, .user2comment, .user3comment{
+      font-size: $norm;
+      color: $white;
+}
+}
+.user2 img, .user1 img, .user3 img{
+   width: 75px;
+margin-left: 20px;
+vertical-align: bottom;
+   @include border-radius(50px);
+}
+
+//TESTIMONIALS END HERE
+.faqs{
+   background-color: $white;
+   color: $green;
+   margin-top: 120px;
+   margin-bottom: 120px;
+   .four.columns{
+      text-align: center;
+      h3{
+         right: -120%;
+         font-size: 45px;
+         position: relative;
+         opacity: 1;
+         @include transition(all 1s);
+         @include transition-timing-function(ease-out);
+         @include transition-delay(0s);
+      }
+      h3.onscreen {
+         font-size: 30px;
+         right: 0%;
+         opacity: 1;
+      }
+   }
+   li{
+      padding-left: 5.2em;
+      text-indent:-5.2em;
+      @include font-size($norm);
+      i{
+         font-size: $large;
+         margin-top: 3px;
+         margin-bottom: 3px;
+         text-indent:0;
+         padding: 10px;
+         color: $darkGray;
+         background-color: $whiteBackground;
+         @include border-radius(3px);
+         left: -15%;
+         position: relative;
+         opacity: 0;
+         @include transition(all .2s);
+      }
+      i.onscreen {
+         left: 0%;
+         opacity: 1;
+         @include transition(all .6s);
+         @include transition-timing-function(ease-out);
+         @include transition-delay(.8s);
+      }
+   }
+   span{
+      color: $green;
+      font-size: 16px;
+      font-weight: 500;
+      right: -15%;
+      position: relative;
+      opacity: 0;
+      margin-left: 6%;
+      @include transition(all .2s);
+   }
+   span.onscreen {
+      right: 0%;
+      opacity: 1;
+      @include transition(all .6s);
+      @include transition-timing-function(ease-out);
+      @include transition-delay(.8s);
+   }
+   a > span:hover {
+      color: $greenLite !important;
+      @include transition(all .6s);
+      @include transition-timing-function(ease-out);
+      @include transition-delay(0s);
+   }
+   a > span:before {
+      margin-bottom: -2px;
+      background-color: transparent;
+   }
+}
+//*** TWITTER FEED STYLINGS START ***//
+
+#newsFeed{
+   overflow:hidden;
+   margin-top: 70px;
+   margin-bottom: 70px;
+   ul{
+      margin-left: 0px !important;
+      padding-left: 0px !important;
+      margin-right: 0px !important;
+      padding-right: 0px !important;
+      @include row();
+      li{ //twitter boxes
+         font-weight: 300 !important;
+         padding: 4%;
+         background-color: white;
+         min-height: 430px;
+         @include column(4);
+         .tweet{
+            font-weight: 300;
+            margin-top: 25%;
+            margin-bottom: 20%;
+            overflow: hidden !important;
+            }
+         a span{
+            font-weight: 300;
+            color: $green !important;
+         }
+      }
+   }
+}
+/*
+.user a {
+   color: $darkestGray !important;
+   font-weight: 700;
+}
+*/
+.user a span:first-of-type {
+   display:none;
+   margin-right:25px;
+   color: $darkestGray !important;
+   font-weight: 500 !important;
+}
+.user a span:last-of-type {
+   display: block;
+   margin-top:7px;
+   font-size: 200%;
+   color: $darkestGray !important;
+   font-weight: 500 !important;
+}
+.tweet{
+   margin-top: 85px;
+}
+.timePosted{
+   margin-left: 15px;
+   color: $darkestGray !important;
+   font-weight: 300;
+}
+.media img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   max-height: 200px !important;
+   @include border-corner-radius(top, left, 5px);
+   @include border-corner-radius(top, right, 30px);
+   @include border-corner-radius(bottom, left, 30px);
+   @include border-corner-radius(bottom, right, 5px);
+}
+/*
+.user img{
+   margin-left: 15px;
+   float:left;
+}
+*/
+#newsFeed .user img{
+   @include hidden(desktop);
+   @include hidden(tablet);
+   @include hidden(all-phones);
+}
+.user a > span {
+   float:left;
+   font-weight: 300;
+}
+.tweet{
+   color: $darkestGray !important;
+}
+.tweet a > span:before {
+   background-color: transparent !important;
+   height: 0px;
+   margin-bottom: 0px;
+}
+.tweet a > span:after {
+   background-color: blue !important;
+   height: 0px;
+   margin-bottom: 0px;
+}
+.tweet a:hover{
+   color: $greenLite !important;
+   @include transition(all .6s);
+}
+
+//*** TWITTER FEED STYLINGS END ***//
+#footer{
+   text-align: left;
+   background-color: $darkGray;
+   padding-top: 30px;
+   color: $white;
+   a{
+      color: $white;
+      @include transition(all .6s);
+      &:hover{
+         color: $green;
+      }
+   }
+}
+.footLinks {
+   margin-bottom: 50px;
+.four.columns{
+   right: -15%;
+   position: relative;
+   opacity: 1;
+   @include transition(all .2s);
+   img{
+      width: 200px;
+   }
+}
+.four.columns.onscreen {
+   right: 0%;
+   opacity: 1;
+   @include transition(all .6s);
+   @include transition-timing-function(ease-out);
+   @include transition-delay(0s);
+   img{
+      width: 180px;
+   }
+}
+   p{
+      font-size: 14px;
+   }
+   ul {
+      li {
+         line-height:1.2em;
+         font-size: 83%;
+         font-weight: 500;
+         &:first-child {
+            font-weight: 700;
+            font-size: 110%;
+            margin-bottom: 0px !important;
+            line-height:2.9em;
+         }
+      }
+   }
+}
+.lowerFooter{
+   padding-top: 8px;
+   padding-bottom: 8px;
+   background-color: $darkerGray;
+   color: $fontGray;
+}
+.license{
+   text-align: left;
+   font-size: 12px;
+}
+.socialFooter{
+   text-align: right;
+   font-size: 20px;
+   a{
+      color: $fontGray !important;
+      &:hover{
+         color: $green;
+      }
+   }
+}
+
+/* BUTTON STYLING START */
+.btn {
+   border: none;
+   font-family: inherit;
+   font-size: inherit;
+   color: inherit;
+   background: none;
+   cursor: pointer;
+   padding: 6px 6px !important;
+   display: inline-block;
+   margin: 0px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   outline: none;
+   position: relative;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   transition: all 0.3s;
+}
+.btn:after {
+   content: '';
+   position: absolute;
+   z-index: -1;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   transition: all 0.3s;
+}
+/* Pseudo elements for icons */
+.btn:before,
+.icon-heart:after,
+.icon-star:after,
+.icon-plus:after,
+.icon-file:before {
+   font-family: 'icomoon';
+   speak: none;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+   position: relative;
+   -webkit-font-smoothing: antialiased;
+}
+.btn-1 {
+   border: 2px solid $darkGray;
+   color: $darkGray;
+   font-size: 12px;
+}
+.btn-1e {
+   overflow: hidden;
+}
+.btn-1e:after {
+   width: 100%;
+   height: 0;
+   top: 50%;
+   left: 50%;
+   background: $darkGray;
+   opacity: 0;
+   -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+   -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+   -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+   transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.btn-1e:hover,
+.btn-1e:active {
+   color: $white;
+   opacity: 1;
+   z-index: 60;
+}
+/* background size */
+.btn-1e:hover:after {
+   height: 620%;
+   opacity: 1;
+}
+/*
+.btn-1e:active:after {
+   height: 520%;
+   opacity: 1;
+}
+*/
+/* BUTTON STYLING END */
+
+#odometer2, #odometer3, #odometer4, #odometer5{
+   overflow: visible !important;
+   font-family: $primaryFont;
+   font-weight: 300;
+}
+//** 'EXPLORE' ARROWS AT TOP START **//
+.arrow3 {
+   animation: hex-pop-in 2.5s infinite 2.5s linear;
+   -webkit-animation: hex-pop-in 2.5s infinite 2.5s linear;
+   }
+.arrow2 {
+   animation: hex-pop-in 2.5s infinite 3s linear;
+   -webkit-animation: hex-pop-in 2.5s infinite 3s linear;
+}
+.arrow1 {
+   animation: hex-pop-in 2.5s infinite 3.5s linear;
+   -webkit-animation: hex-pop-in 2.5s infinite 3.5s linear;
+}
+@keyframes hex-pop-in {
+  0% { stroke: $arrowWhite; }
+  100% { stroke: $arrowTransparent; }
+}
+@-moz-keyframes hex-pop-in {
+  0% { stroke: $arrowWhite; }
+  100% { stroke: $arrowTransparent; }
+}
+@-webkit-keyframes hex-pop-in {
+  0% { stroke: $arrowWhite; }
+  100% { stroke: $arrowTransparent; }
+}
+@-o-keyframes hex-pop-in {
+  0% { stroke: $arrowWhite; }
+  100% { stroke: $arrowTransparent; }
+}
+//** 'EXPLORE' ARROWS AT TOP END **//
+a.anchor{display: block; position: relative; top: -200px; visibility: hidden;}
+//** ^^^^^^ part of arrow animation ^?
+
+//** ####################### **//
+//** FAQ.HTML PAGE CSS START **//
+//** ####################### **//
+#faq hr{
+   width: 80%;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+#faq nav hr{
+   margin-left: 10px;
+}
+
+.rule1{
+   margin: 0 auto;
+   width: 40%;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+.rule2{
+   margin: 0 auto;
+   width: 20% !important;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+.rule3{
+   width: 100% !important;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+#faq h3{
+   margin-top: 30px;
+}
+#faq .first{
+   margin-top: -20px !important;
+}
+// #faq .headline{
+//    height: 30% !important;
+//    margin-top: 5%;
+// }
+.headerFAQS{
+   text-align: center;
+   font-weight: 700;
+   color: $white;
+   font-size: 400%;
+   margin-top: 10px !important;
+}
+#faq .sixteen.colgrid{
+   padding-top: 80px;
+   padding-bottom: 40px;
+   background: url(../img/geometry.png);
+   a{
+      @include transition(all .6s);
+   }
+   a:hover{
+      color: $greenLite;
+      @include transition(all .6s);
+   }
+}
+#faq .eleven.columns{
+   background: $white;
+   padding: 25px;
+}
+#faq ul li{
+   list-style-position: inside;
+   list-style-image: url(../img/lozenge.png) !important;
+   margin-top: 10px;
+}
+#faq #footer ul li{
+   list-style-image: none !important;
+   margin-top: 0px;
+}
+#faq ol li{
+   list-style-position: outside;
+   margin-top: 20px;
+}
+#faq h2{
+   margin-top: 30px;
+}
+#faq .five.columns{
+   margin-top: 0px;
+   ul li{
+      list-style-image: none !important;
+      padding: 10px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+   }
+}
+#faq li.headers{
+   font-size: 94%;
+   font-weight: 700 !important;
+   text-transform: capitalize;
+}
+#faq nav#sidebar-nav-holder{
+   text-transform: inherit !important;
+   line-height: 1.3;
+}
+#faq nav#sidebar-nav-holder li{
+   margin-bottom: 20px;
+
+}
+#faq nav#sidebar-nav-holder a{
+   text-transform: inherit !important;
+   color: $green;
+   @include transition(all .6s);
+}
+#faq nav#sidebar-nav-holder a:hover{
+   color: $greenLite !important;
+   @include transition(all .6s);
+}
+#faq nav#sidebar-nav-holder.fixed{
+   margin-top: 85px;
+}
+#faq .first{
+   margin-top: 0px;
+}
+.centerImage{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  @include box-shadow($gray 2px 2px 4px);
+}
+.floatRight{
+   float: right;
+   margin-left: 15px;
+   @include box-shadow($gray 2px 2px 4px);
+}
+.floatLeft{
+   float: left;
+   @include box-shadow($gray 2px 2px 4px);
+}
+.browserBit span, .open-port span{
+   // font-family: $terminalFont;
+   font-weight: 400;
+   letter-spacing: 1px;
+   background: $terminalBackground;
+   color: $terminalColor;
+   padding: 2px 10px;
+   max-width: 400px;
+   @include border-radius(2px);
+}
+//  FAQ.HTML PAGE END =======================
+//** ####################### **//
+//** COMINGSOON.HTML PAGE CSS START **//
+//** ####################### **//
+.pageComingSoonH1{
+   text-align: center;
+   font-weight: 700;
+   color: $white;
+   margin-top: 10px;
+}
+.pageComingSoonH2{
+   text-align: center;
+   color: $white;
+}
+//** ####################### **//
+//** ARCHIVES.HTML PAGE CSS START **//
+//** ####################### **//
+.pageArchiveH1{
+   text-align: center;
+   font-weight: 400;
+   color: $white;
+   margin-top: 10px;
+}
+.headlineArchive{
+   height: 30% !important;
+   margin-top: 0px;
+}
+.headingArchive{
+   padding-top: 70px;
+   padding-bottom: 50px;
+   background: transparent;
+   text-align: center;
+   li{
+      margin-bottom: 8px;
+   }
+   li:last-of-type{
+      margin-top: 50px;
+   }
+   h4 span{
+      color: $green;
+      font-weight: 400;
+   }
+   a{
+      color: $green !important;
+      font-weight: 400;
+      font-size: $large;
+      @include transition(all .6s);
+   }
+   a:hover{
+      color: $greenLite !important;
+      @include transition(all .6s);
+   }
+}
+//** ####################### **//
+//** INSTALL.HTML PAGE CSS START **//
+//** ####################### **//
+#install{
+   a{
+      @include transition(all 1s);
+   }
+   a:hover{
+      color: $greenLite !important;
+      @include transition(all .6s);
+      @include transition-timing-function(ease-out);
+      @include transition-delay(0s);
+   }
+}
+.installer{
+   text-align: center;
+   img{
+      margin-top: 20px;
+      max-height: 100px;
+   }
+   h2{
+      margin-top: 80px;
+   }
+}
+.borderClient{
+   min-height: 100px;
+   padding: 2%;
+   margin-top: 10px;
+   background-color: $white;
+}
+#install hr{
+   width: 20%;
+   margin: 0 auto;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+.clientLarge{
+   font-size: $large;
+   margin-bottom: 20px;
+}
+.clientMed{
+   font-size: $med;
+}
+.sigSmall{
+   font-size: $small;
+   font-size: 101%;
+   margin-top: 20px;
+}
+
+
+
+
+
+@import '_mobile.scss';

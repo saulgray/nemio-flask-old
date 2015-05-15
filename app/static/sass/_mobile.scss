@@ -1,0 +1,498 @@
+#modal1{
+   @include respond("max-width: 767px") {
+      display: none;
+   }
+}
+.dropdown{
+   @include respond("max-width: 767px") {
+      min-width: 100px;
+      max-width: 140px !important;
+      margin-left: 50% !important;
+   }
+}
+.dropdown ul{
+   @include respond("max-width: 767px") {
+      margin-left: 300px;
+      background: $offWhite !important;
+      border: none !important;
+      min-width: 100%;
+   }
+}
+.dropdown li{
+   @include respond("max-width: 767px") {
+      min-height: 500px;
+      min-height: 20px;
+      margin-left: 300px;
+      background: $offWhite !important;
+      border: none !important;
+      min-width: 100%;
+   }
+}
+.dropdown li a{
+   @include respond("max-width: 767px") {
+      min-height: 20px;
+      background: $offWhite !important;
+      text-align: left !important;
+      border: none !important;
+      min-width: 100%;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+   }
+}
+
+#headerSlideContainer {
+   @include hidden(all-phones);
+   @include hidden(portrait-tablet);
+}
+.navbar h1 {
+   @include respond("max-width: 767px") {
+      margin-left: 12px !important;
+      margin-bottom: 5px !important;
+   }
+}
+.navbar .logo {
+   @include respond("max-width: 767px") {
+      margin-left: 12px !important;
+      margin-top: 10px !important;
+   }
+}
+.navbar ul {
+   @include respond("max-width: 767px") {
+      background: $white;
+      padding-right: 4%;
+   }
+}
+.navbar{
+   @include respond("max-width: 767px") {
+      margin-bottom: 0px !important;
+   }
+}
+.headline{
+   @include respond("max-height: 868px") {
+      max-width: 500px !important;
+      margin: 0 auto !important;
+      margin-top: 80px !important;
+   }
+   @include respond("max-height: 767px") {
+      max-width: 450px !important;
+   }
+   @include respond("max-height: 668px") {
+      max-width: 380px !important;
+      margin-top: 60px !important;
+   }
+   @include respond("max-height: 568px") {
+      max-width: 300px !important;
+      margin-top: 40px !important;
+   }
+   @include respond("max-height: 468px") {
+      max-width: 220px !important;
+      margin-top: 30px !important;
+   }
+   @include respond("max-height: 388px") {
+      max-width: 180px !important;
+   }
+   @include respond("max-height: 320px") {
+      max-width: 120px !important;
+   }
+   @include respond("max-width: 767px") {
+      max-width: 60%;
+      margin: 0 auto;
+      margin-top: 10%;
+   }
+   @include respond("max-width: 668px") {
+      max-width: 70%;
+      margin: 0 auto;
+      margin-top: 10%;
+   }
+   @include respond("max-width: 568px") {
+      max-width: 85%;
+      margin: 0 auto;
+      margin-top: 10%;
+   }
+   @include respond("max-width: 468px") {
+      max-width: 90%;
+      margin: 0 auto;
+      margin-top: 10%;
+   }
+}
+
+.parallax1{
+   @include respond("max-width: 767px") {
+      min-height: 560px;
+   }
+}
+.parallaxTop{
+   @media only screen and (max-width: 767px) {
+      background: url(../img/city-scape900.jpg) no-repeat;
+      background-size: cover;
+      min-height: 200px;
+      height: 100%;
+   }
+   @media only screen and (max-width: 567px) {
+      background: url(../img/city-scape700.jpg) no-repeat;
+      background-size: cover;
+      min-height: 200px;
+      height: 100%;
+   }
+   @media only screen and (max-width: 467px) {
+      background: url(../img/city-scape550.jpg) no-repeat;
+      background-size: cover;
+      min-height: 100px;
+      height: 100%;
+   }
+   @media only screen and (min-height: 1000px) {
+      height: 80%;
+   }
+   @media only screen and (min-height: 1200px) {
+      height: 70%;
+   }
+}
+.thirdParty{
+   @include respond("max-width: 767px") {
+      text-align: right;
+      margin-bottom: 50px;
+      margin-top: 20px;
+      padding: 20px;
+      h3{
+         font-weight: 700;
+      }
+      p{
+         margin-left: 16%;
+         font-weight: 300;
+         text-align: right;
+         margin-bottom: 0px;
+      }
+   }
+}
+.modContent{
+   @include respond("max-width: 767px") {
+      margin-right: 15px;
+      float: right;
+   }
+}
+.hideDesktop{
+   @include hidden(desktop);
+   img{
+      width: 290px;
+      overflow: hidden;
+      float: right;
+   }
+}
+.laptop{
+   @include hidden(tablet);
+   @include hidden(all-phones);
+}
+.mainClient{
+   @include respond("max-width: 767px") {
+      width: 400px;
+      padding: 20px;
+      overflow: hidden;
+   }
+}
+.mainClient{
+   @include respond("max-width: 468px") {
+      width: 400px;
+      padding: 0px;
+      padding-left: 20px;
+      overflow: hidden;
+   }
+}
+.mainClient h3, .thirdParty h3{
+   @include respond("max-width: 668px") {
+      font-size: 20px;
+   }
+}
+.mainClient{
+   @include respond("max-width: 988px") {
+      text-align: left;
+      margin-top: 10%;
+   }
+   @include respond("max-width: 888px") {
+      text-align: left;
+      margin-top: 7%;
+   }
+}
+.clientTextSlide{
+   @include respond("max-width: 767px") {
+      position: relative;
+      left: -0%;
+      opacity: 1;
+   }
+}
+.thirdParty{
+   @include respond("max-width: 767px") {
+      position: relative;
+      right: 0%;
+      opacity: 1;
+   }
+}
+.statsMargin{
+   @include respond(tablet) {
+      margin-top: 30px;
+      margin-bottom: 70px;
+   }
+   @include respond(all-phones) {
+      margin-top: 30px;
+      margin-bottom: 70px;
+   }
+}
+.joined{
+   @include respond("max-width: 767px") {
+      min-height: 200px;
+      padding-top: 30px;
+   }
+}
+.four.columns.border{
+   @include respond("max-width: 767px") {
+      margin-top: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+   }
+}
+.purchase .eleven.columns ul{
+   @include respond("max-width: 767px") {
+      text-align: center !important;
+   }
+}
+.purchase .three_up, .purchase .ten.columns p{
+   @include respond("max-width: 767px") {
+      text-align: center !important;
+   }
+}
+.otherXchange a img{
+   @include respond("max-width: 767px") {
+      margin-top: 20px;
+      margin-bottom: 20px;
+   }
+}
+#link2Html{
+   @include visible(desktop);
+   @include visible(tablet);
+   @include hidden(all-phones);
+}
+#link2Html2{
+   @include hidden(desktop);
+   @include hidden(tablet);
+   @include visible(all-phones);
+}
+.user1 {
+   @include respond("max-width: 767px") {
+      padding-left: 50px !important;
+      padding-top: 5%;
+      padding-bottom: 4%;
+      text-align: left !important;
+   }
+}
+.user1comment {
+   @include respond("max-width: 767px") {
+      padding-left: 50px !important;
+      padding-right: 100px !important;
+      padding-bottom: 5%;
+      text-align: left !important;
+   }
+}
+.testimonials .user2, .testimonials .user3, .testimonials .user2comment, .testimonials .user3comment{
+   @include hidden (all-phones);
+   @include hidden (portrait-tablets);
+}
+.faqs{
+   margin-left: 10%;
+   margin-right: 5%;
+}
+.faqs .four.columns .valign:before {
+   @include respond("max-width: 767px") {
+      height: 60px;
+      margin-top: 80px;
+      margin-left: 80px;
+   }
+}
+.faqs .eight.columns .valign:before {
+   @include respond("max-width: 767px") {
+      height: 240px;
+      margin-bottom: 40px;
+      margin-top: 0px;
+      padding-top: 0px;
+   }
+}
+.faqs .four.columns h3 {
+   @include respond("max-width: 767px") {
+      margin-left: -50%;
+      font-size: 30px;
+      right: 0%;
+      opacity: 1;
+      margin-bottom: -30%;
+   }
+}
+.faqs .four.columns h3 {
+   @include respond("max-width: 348px") {
+      position: relative;
+      bottom: 80px !important;
+      left: 20px !important;
+   }
+}
+.faqs span{
+   @include respond("max-width: 767px") {
+   position: relative;
+   right: 0%;
+   opacity: 1;
+   }
+}
+.faqs li i{
+   @include respond("max-width: 767px") {
+   position: relative;
+   left: 0%;
+   opacity: 1;
+   }
+}
+.faqreadfaq2, .faqirc2, .faqforum2, .faqwiki2{
+   @include hidden(desktop);
+   @include visible(tablet);
+}
+.faqreadfaq, .faqirc, .faqforum, .faqwiki{
+   @include visible(desktop);
+   @include hidden(tablet);
+   @include hidden(all-phones);
+}
+
+#newsFeed ul{
+   @include respond("max-width: 1068px") {
+      margin-top: 4%;
+   }
+}
+#newsFeed ul .user{
+   @include respond("max-width: 868px") {
+      margin-bottom: 20px;
+   }
+}
+#newsFeed{
+   @include respond("max-width: 767px") {
+   margin-top: 3%;
+   margin-bottom: 30px;
+   padding-right: 20px;
+   padding-left: 20px;
+
+   ul li{ //twitter boxes
+      margin-bottom: 3%;
+      padding: 5%;
+      background-color: white;
+      min-height: 200px;
+      .tweet{
+         margin-top: 10%;
+         margin-bottom: 5%;
+         overflow: hidden !important;
+      }
+   }
+}
+}
+#newsFeed .user{
+   @include respond("max-width: 568px") {
+      margin-bottom: 40px !important;
+   }
+}
+#newsFeed .user{
+   @include respond("max-width: 368px") {
+      margin-bottom: 60px !important;
+   }
+}
+#footerlogotext{
+   @include respond("max-width: 767px") {
+      max-width: 60%;
+      margin: 0 auto;
+   }
+}
+#footer li, #footer, #footer p{
+   @include respond("max-width: 767px") {
+      text-align: center !important;
+   }
+}
+#footer .four.columns.inview img{
+   @include respond("max-width: 767px") {
+      margin-left: 38px;
+   }
+}
+#footer .four.columns.inview{
+   @include respond("max-width: 767px") {
+      margin-top: 40px;
+   }
+}
+.lowerFooter .socialFooter {
+   @include respond("max-width: 767px") {
+      margin-bottom: 10px;
+      margin-top: 10px;
+      text-align: center;
+  }
+}
+.lowerFooter .license {
+   @include respond("max-width: 767px") {
+      margin-bottom: 10px;
+      text-align: center;
+  }
+}
+.footLinks .four.columns{
+   @include respond("max-width: 767px") {
+      right: 0%;
+      position: relative;
+      opacity: 1;
+   }
+}
+.footLinks, .lowerFooterBox{
+   @include respond("max-width: 1168px") {
+      margin-left: 3%;
+      margin-right: 3%;
+   }
+}
+.footLinks, .lowerFooterBox{
+   @include respond("max-width: 767px") {
+      margin-left: 0%;
+      margin-right: 0%;
+   }
+}
+
+
+.headlineArchive{
+   @include respond("max-width: 767px") {
+      height: 30% !important;
+      margin-top: 40px;
+   }
+}
+.headingArchive{
+   @include respond("max-width: 767px") {
+   padding-left: 20%;
+}
+}
+.headingArchive h3{
+   @include respond("max-width: 767px") {
+
+}
+}
+.headingArchive{
+   @include respond("max-width: 367px") {
+      padding-left: 20%;
+      margin: 0 auto !important;
+   a{
+   font-size: $norm;
+}
+h4{
+   font-size: 18px;
+}
+}
+}
+//** ####################### **//
+//** INSTALL.HTML PAGE CSS START **//
+//** ####################### **//
+.clientMed{
+   @include respond("max-width: 767px") {
+      margin-top: 20px;
+   }
+}
+#install p{
+   @include respond("max-width: 767px") {
+      margin-top: 20px;
+   }
+}
+.installer{
+   @include respond("max-width: 767px") {
+      padding-right: 20px;
+      padding-left: 20px;
+   }
+}

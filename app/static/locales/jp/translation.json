@@ -1,0 +1,258 @@
+{
+   "READ-Translators": "Directly below are different links for this site, change the links only if you can find a better alternative in the language you are translating to, and you are familiar with basic HTML. Anything that starts with 'READ' is a message to the translators, and it does not need to be translated.",
+
+   "a": {
+      "i": "<i class=\"icon-down-open-big\"></i>",
+      "1": "<a href=\"http://blog.nem.io/windows-mac-installation-guide/\">",
+      "3": "<a href=\"comingSoon.html\">",
+      "5": "<a href=\"#OS-supportContent\">",
+      "6": "<a href=\"#how-harvestContent\">",
+      "8btcLink": "<a href=\"http://www.8btc.com/\">",
+      "nemBlog": "<a href=\"http://blog.nem.io/\">Official NEM Blog</a>",
+      "nemInstall": "<a href=\"http://blog.nem.io/windows-mac-installation-guide/\">",
+      "windowsInstall": "<a href=\"http://blog.nem.io/windows-installation-guide-standalone/\">",
+      "ubuntuInstall": "<a href=\"http://blog.nem.io/ubuntu-installation-guide-standalone/\">",
+      "javaCheck": "<a href=\"https://www.java.com/en/download/installed.jsp\">",
+      "javaWindowsM": "<a href=\"http://blog.nem.io/how-to-install-java-8-64-bit-on-windows/\">",
+      "javaMacM": "<a href=\"https://www.java.com/en/download/help/mac_install.xml\">",
+      "nemNinja": "<a href=\"http://bob.nem.ninja/\">bob.nem.ninja</a>",
+      "bobNemNinja": "<a href=\"http://bob.nem.ninja/\">",
+      "nemNinjaInstaller": "<a href=\"http://bob.nem.ninja/installer/\">bob.nem.ninja/installer</a>",
+      "nemWindowsTut": "<a href=\"http://blog.nem.io/windows-installation-guide-standalone/\">",
+      "nemMacTut": "<a href=\"http://blog.nem.io/windows-mac-installation-guide/\">",
+      "nemLinuxTut": "<a href=\"http://blog.nem.io/ubuntu-installation-guide-standalone/\">",
+      "portGuide": "<a href=\"http://blog.nem.io/easy-configuration-guide-opening-port-7890/\">",
+      "exchangeGuide": "<a href=\"\">",
+      "rasPi": "<a href=\"http://www.raspberrypi.org/products/raspberry-pi-2-model-b/\">",
+      "vultr": "<a href=\"https://www.vultr.com/pricing/\">",
+      "nuc": "<a href=\"http://www.intel.com/content/www/us/en/nuc/overview.html\">",
+      "liva": "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16856501007&cm_re=mini_computer-_-56-501-007-_-Product\">",
+      "foxconn": "<a href=\"http://www.newegg.com/Product/Product.aspx?Item=N82E16856119080&cm_re=mini_pc-_-56-119-080-_-Product\">",
+      "easyConfig": "<a href=\"http://blog.nem.io/easy-configuration-guide-opening-port-7890/\">",
+      "easyConfig2": "<a href=\"http://www.wikihow.com/Open-Ports\">",
+      "nccSource": "<a href=\"https://github.com/NewEconomyMovement/NemCommunityClient\">Github</a>",
+      "nisApi": "<a href=\"http://bob.nem.ninja/docs/\">NIS API</a>"
+   },
+   "READ-Translators2": "Anything that is closed in brackets, such as '</a>', '<>', '</span>' below this message, should NOT be translated. For example, if you were translating this sentence, do not translate '<span>', but still translate the bold <span>TEXT INSIDE THESE TWO SPAN TAGS</span>",
+   "READ-Translators3": "Do not translate anything that starts with '$', looks like this '$t(a.1)' or this '$t(s.java)'",
+
+   "app": {
+      "now": "GET XEM HERE",
+      "coming": "COMING SOON",
+      "tut": "tutorial",
+      "tenth": "10",
+      "ninth": "9",
+      "eighth": "8",
+      "seventh": "7",
+      "sixth": "6",
+      "fifth": "5"
+   },
+   "nav":{
+      "client": "CLIENT",
+      "buy": "BUY XEM",
+      "blog": "BLOG",
+      "support": "<span>SUPPORT $t(a.i)</span>",
+      "tutorial": "TUTORIALS",
+      "helpdesk": "HELP DESK",
+      "faq": "FAQ's",
+      "update": "UPDATES",
+      "lang": "<span>ENGLISH $t(a.i)</span>",
+      "READ-Translators4": "lang output should be the name of the translated language"
+   },
+   "clients":{
+      "header1": "NEM Community Client",
+      "about1": "Open the Full Featured NEM Beta Client in your web browser, a simple two step process.",
+      "click1": "INSTALL NEM COMMUNITY CLIENT",
+      "help1": "Need help with installing the NEM Client? $t(a.1) <span>Follow our easy guide</span></a>",
+
+      "header2": "Streamlined NEM Mobile Client",
+      "about2": "Install the NEM Mobile Client, it has all the core NEM features, with ease of use in mind.",
+      "click2": "COMING SOON"
+   },
+   "buy":{
+      "header": "How to get XEM?",
+      "box1": "XEM will be available at BITTREX shortly after launch",
+      "box1click": "$t(app.now)",
+      "box2": "XEM will be available at POLONIEX shortly after launch",
+      "box2click": "$t(app.now)",
+      "box3": "Buy XEM directly with cash",
+      "box3click": "$t(app.coming)",
+      "help": "Need help with purchasing XEM? $t(a.3) <span> learn more here</span></a>",
+      "help2": "Need help with purchasing XEM? $t(a.3) <span><br>learn more here</span></a>"
+   },
+   "footer":{
+      "logotext": "NEM is a movement to create a new economy based on the principles of decentralization, financial freedom, and equality of opportunity.",
+
+      "resources": "Resources",
+      "resources1": "NEM Github",
+      "resources2": "NEM Crowdsale",
+      "resources3": "Final Stakeholder List",
+      "resources4": "NIS API",
+      "resources5": "NCC API",
+      "resources6": "8BTC",
+
+      "articles": "Articles",
+      "articles1": "NEM on Vice",
+      "articles2": "NEM Yahoo Finance",
+      "articles3": "NEM Cointelegraph",
+      "articles4": "",
+      "articles5": "",
+      "articles6": "",
+
+      "newsletters": "Newsletter",
+      "newsletters1": "Newsletter $t(app.tenth)",
+      "newsletters2": "Newsletter $t(app.ninth)",
+      "newsletters3": "Newsletter $t(app.eighth)",
+      "newsletters4": "Newsletter $t(app.seventh)",
+      "newsletters5": "Newsletter $t(app.sixth)",
+      "newsletters6": "Archives"
+   },
+   "faqs":{
+      "headerFaqs": "FAQs",
+
+      "nav":{
+         "gen-question": "general questions",
+         "nem-crypto": "Is NEM a cryptocurrency?",
+         "why-nem": "Why should I use NEM when there is Bitcoin?",
+         "use-nem": "What can I do with NEM?",
+         "whats-xem": "What is XEM?",
+         "loyalty-points": "Credit Cards give loyalty points. Does using NEM give the same?",
+
+         "get-started": "getting started",
+         "OS-support": "Which operating systems are supported?",
+         "install-java": "How do I install Java?",
+         "get-wallet": "How do I get a NEM wallet?",
+         "strong-pass": "What is your definition of a strong password?",
+         "install-nem": "How do I install the NEM software?",
+         "get-xem": "How can I get some XEM?",
+         "ncc-nis": "What is NCC and what is NIS?",
+         "nis-or-ncc": "What are the minimum requirements to run just the NIS OR the NCC?",
+         "nis-and-ncc": "What are the minimum requirements to run the NIS AND the NCC simultaneously?",
+         "run-node": "How can I run a node (NIS)?",
+         "mobile-wallet": "Is there a mobile wallet?",
+         "install-help": "I can't install NEM on my computer. Where else can I get help?",
+
+         "tech-basic": "technology basics",
+         "whats-poi": "What is this \"POI\"?",
+         "multisig": "What are Multi-User Accounts, and how does that work?",
+         "whats-harvest": "What is Harvesting?",
+         "how-harvest": "How can I Harvest?",
+         "open-port": "How do I open Port 7890?",
+
+         "deep-question": "deeper questions",
+         "xem-exist": "How many XEM are in circulation?",
+         "community-fund": "What is the \"NEM Community Fund\"?",
+         "nem-distribution": "How was NEM distributed initially?",
+         "issue-coins": "I want to issue my own coins in order to do my own things. Can I use NEM?",
+         "nem-indepth": "Where can I get more indepth information about NEM?"
+      },
+
+      "nem-cryptoContent": "NEM is not just a crypto currency. Above that, and more importantly, NEM is a peer to peer platform and it provides/will provide services like payments, messaging, asset trading and smart contracts.There shall be a lot more to come as NEM shall be an evolving solution.",
+
+      "why-nemContent": "Bitcoin is a crypto currency and so are most crypto coins. Some are application specific while some are purely crypto coins. Apart from NEM being another crypto currency, NEM is a solution platform. There is more to offer as a platform. As a crypto currency, it does not require a lot of computing power and energy to run a node. NEM also advocates low entry barrier by way of Proof of Importance (POI) instead of the traditional ones that require a lot of stakes or computing power to mine. In NEM we call it harvesting. In addition, it also uses another solution, called Eigentrust ++ to validate and sieve out bad actors in the network. As an evolving solution, NEM is setting the stage for better things to come. At the initial stage NEM has this to offer:",
+      "why-nem-1": "First block chain based multisig solution",
+      "why-nem-2": "An encrypted messaging solution",
+      "why-nem-3": "Harvesting: Once harvesting is started, you don't need your wallet to stay open to harvest. It can be closed and the wallet does not need to be online.",
+      "why-nem-4": "Protected wallet, i.e., wallet does not need to be online with the Internet. It can hide behind a firewall and only connects itself directly to the NIS in the LAN.",
+      "why-nem-5": "Password and Private Key never leaves the wallet and the wallet itself is protected by a password.",
+
+      "use-nemContent": "You can send and receive payments and messages quickly, securely and at low cost on a global scale without the need for a bank account. You can buy/sell/trade assets and goods worldwide. In future, there shall be more exciting features such as asset trading, smart contracts and colored coins.",
+
+      "whats-xemContent": "\"XEM\" is NEM's currency code. It is similar to USD, EUR, CNY, JPY etc.",
+
+      "loyalty-pointsContent": "NEM 's loyalty points come in the form of harvesting. These are in fact rewards for using NEM as a platform to perform your transactions. The more you transact and the greater your balance is, the more frequent will be your reward. Rewards are random. Sometimes you get more and sometimes less, depending on the block that you harvest.",
+
+      "OS-supportContent": "With 64BIT Java as runtime enviroment, it is possible to run the NEM software on all the popular operating systems that support Java. These include Windows, Mac OSX, and Linux.",
+
+      "javaHeader": "Installing Java",
+      "javaText": "Check your java version $t(a.javaCheck)HERE</a>. If you are using Java Version 8, update 25 or above, you are ready to install the NEM client.",
+
+      "javaWindowsHead": "Installing Java - Windows",
+      "javaWindowsVideo": "Here is a video $t(app.tut) on how to install Java 8 on Windows 8, although the instructions are for Java 7, they are identical to the instructions for Java 8.",
+      "javaWindowsMan": "There is also a wikihow entry on installing Java 8 $t(a.javaWindowsM)HERE</a>",
+
+      "javaMacHead": "Installing Java - Mac OSX",
+      "javaMacVideo": "Here is a video $t(app.tut) on how to install Java on Mac OSX.",
+      "javaMacMan": "Also the Java website has a good Mac OSX install $t(app.tut), that can be found $t(a.javaMacM)HERE</a>",
+
+      "javaLinuxHead": "Installing Java - Linux",
+      "javaLinuxVideo": "A great video on how to install Java 8 in Ubuntu/Mint",
+
+      "get-walletContent": "Download the NEM one-click installer at $t(a.nemNinjaInstaller) or the stand-alone version at $t(a.nemNinja). After installation, simply click on [Create New Wallet]. (Please make sure to use a very strong password.)",
+      "get-wallet-note": "(Note: These are the ONLY official sites that distribute the latest and verified NEM software. There may be others available elsewhere, but you will need to verify for yourself if they are in fact safe to use.)",
+
+      "strong-passContent": "This is rather subjective and it depends on the user. A reasonably long string in excess of 12 characters that are randomly chosen, have no correlation, and consist of letters, numbers, and symbols should be adequate for most cases.",
+
+      "install-nem-java": "Java 8 is required to run the NEM software, so please make sure you have the latest Java 8 installed on your computer. See Videos above for install instructions.",
+      "install-nem-1":  "Download the Installer for Windows or Mac at $t(a.nemNinjaInstaller).",
+      "install-nem-2": "To install:",
+      "install-nem-3": "Download and unzip the file from $t(a.nemNinjaInstaller)",
+      "install-nem-4": "Run the extracted setup file and follow the instructions. (On Mac you might need to right click on the setup file and then click open).",
+      "install-nem-alone-1": "For 32-bit Java, please download the stand-alone client at $t(a.nemNinja).",
+      "install-nem-alone-2": "Windows: Please follow the community-made $t(a.nemWindowsTut)$t(app.tut)</a>.",
+      "install-nem-alone-3": "",
+      "install-nem-alone-4": "Ubuntu (Linux): Please follow the community-made $t(a.nemLinuxTut)$t(app.tut)</a>.",
+      "install-nem-alone-5": "To allow access to your node from outside your LAN, you should open port 7890 in your router/firewall. You can refer $t(a.portGuide)to this link</a> to get a feel of how to do this. Alternatively, refer to the \"$t(a.6)How do I open Port 7890?</a>\" question in the FAQ here. Do note that this is not a mandatory requirement. It is for the advanced user.",
+
+      "get-xemContent": "You can get XEM at:",
+      "exchange-1": "POLONIEX",
+      "exchange-2": "BITTREX",
+      "exchange-3": "BTC38",
+      "exchange-guide": "Here is a $t(a.exchangeGuide)$t(app.tut)</a> on our forum that shows you how to buy XEM or BTC",
+
+      "nccContent": "NCC stands for NEM Community Client. It is the wallet in short. But we have made it generic because it is a client and in a web architecture, a client can do more than just a wallet function.",
+      "nisContent": "NIS is Network Infrastructure Server. An NIS exist in the NEM space as nodes in a P2P network. It forms the core to making sure and keeping the network plus the block chain validated all the time. NIS is the Web and application server in a Web Architecture. It is a powerful and yet a lightweight server. Any NCC can make use of a NIS to transact. To harvest (see harvest) one can assign or proxy a NIS to harvest for it through the NCC without exposing oneself.",
+
+      "nis-or-ncc-mem": "Memory: 768 MB RAM",
+      "nis-or-ncc-cpu": "CPU: 700 MHz",
+      "nis-or-ncc-note": "Note, these are the bare minimum requirements to run the NEM software. Higher specifications are recommended in order to maintain a suitable level of performance.",
+      "nis-or-ncc-mini-pc": "Some mini-computers and devices that meet these minimum requirements:",
+      "nis-or-ncc-mini-pc-1": "$t(a.rasPi)Raspberry Pi Model 2</a>",
+      "nis-or-ncc-mini-pc-2": "$t(a.vultr)Vultr $5/month server</a>",
+
+      "nis-and-ncc-mem": "Memory: 2 GB+ RAM",
+      "nis-and-ncc-cpu": "CPU: 1 GHz+ (single core or better)",
+      "nis-and-ncc-small-pc": "Some small footprint computers and devices that meet these minimum requirements: ",
+      "nis-and-ncc-small-pc-1": "$t(a.nuc)NUC</a>",
+      "nis-and-ncc-small-pc-2": "$t(a.liva)Liva</a>",
+      "nis-and-ncc-small-pc-3": "$t(a.foxconn)Foxconn</a>",
+
+      "run-node-1": "Download, install, and run the NEM Infrastructure Server $t(a.bobNemNinja)(NIS)</a>.",
+      "run-node-2": "For the more advanced uses:",
+      "run-node-3": "If you want to share the NIS or use the NIS from the Internet, $t(a.6)open port 7890</a> on your router/firewall for the computer where the NIS is running. This is required if you want to access your node from outside your LAN. You do not need to open that port if you only want to run your NCC within your Local Area Network.",
+      "run-node-4": "Do note that it is safe for anyone else to make use of your node to transact and does not jeopardise your security. Passwords and private keys never leave your wallet, which is in the NCC. The NCC is recommended not to be located on the same terminal as the NIS if you want to keep the NIS always on.",
+
+      "mobile-walletContent": "A mobile wallet is currently in development and will be released for iOS and Android soon.",
+
+      "install-help-1": "If you need help, take a look at the <a href=\"https://github.com/NewEconomyMovement/NemCommunityClient/issues\">issues</a> on github.",
+      "install-help-2": "Read the NEM Blog (Coming Soon)",
+
+      "whats-poiContent": "POI is short for \"Proof-of-Importance\". It is a consensus algorithm at the core of the NEM software. The higher your importance, the higher your chance to be allowed to calculate a block (and harvest the fees inside that block). POI adjusts your importance depending on how many transactions you make, with whom you make them and a number of other factors. If you don't do any transactions POI will set your importance based on your balance only (it is then similar to proof-of-stake).",
+
+      "multisigContent": "When an account is set up as a multi-user account (a.k.a. multisig), payments can only be sent if a previously defined amount of people sign the transaction. This can be useful for example if funds should not be in the control of a single person.",
+
+      "whats-harvest-1": "Harvesting is a process whereby a node will calculate blocks and add them to the blockchain.",
+      "whats-harvest-2": "A block contains all transactions that were sent in the last minute. In other words, a block is calculated every minute. With the help of the proof-of-importance algorithm it is decided which node is allowed to calculate a block and can keep all included transaction fees.",
+      "whats-harvest-3": "",
+
+      "how-harvestContent": "Log into your wallet and click \"Start local harvesting\". <br><br>Requirement: The user account needs a vested balance of at least 10,000 XEM.",
+
+      "open-port-8": "Our easy $t(a.easyConfig)configuration guide</a>.",
+      "open-port-9": "Guide from $t(a.easyConfig2)WikiHow</a>.",
+      "open-port-10": "",
+      "open-port-11": "",
+
+      "xem-existContent": "The total amount is 8,999,999,999 XEM.",
+
+      "community-fundContent": "The NEM community fund can be used by anybody to do almost anything. There is only one condition: you have to convince the community of your idea and credentials. Details about the way our community voting is done will be announced soon.",
+
+      "nem-distributionContent": "8,999,999,999 XEM were distributed to 1,500 initial stakeholders and to several multi-signature secured funds for marketing, distribution to late redeemers, operational costs, development, node rewards etc.",
+
+      "issue-coinsContent": "The simple answer is yes. When NEM assets become available, you will be able to issue your own coins, while still using the security and reliability that NEM provides. That is the very basis and premise of the NEM Platform. It gives us a whole lot of flexibility to issue our own coins for whatever we want to do with it.",
+
+      "nem-indepth-4": "You can read one of our many blog posts at the $t(a.nemBlog)",
+      "nem-indepth-2": "The NCC source code is available at $t(a.nccSource)",
+      "nem-indepth-3": "NEM $t(a.nisApi) resource"
+
+   }
+}
