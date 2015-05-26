@@ -1,9 +1,321 @@
 {% extends "layout.html" %}
 {% block content %}
-   <div class="jumbo">
-      <h2>Welcome to the Flask app<h2>
-      <h3>This is the home page for the Flask app<h3>
-      <p>{{Jresponse}}</p>
+<div class="warning alert" id ="headerIE"></div>
+<div class="top parallax parallaxTop"  gumby-parallax=".53">
+<div class="row">
+   <section class="six columns centered">
+      <div class="headline">
+         <article class="youtube video">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/tVgEO-68-rU?rel=0&amp;controls=1&amp;showinfo=0&amp;VQ=HD720" frameborder="0" allowfullscreen>
+            </iframe>
+         </article>
+      </div>
+                 <a href="#top">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="20%" viewBox="0 0 494.5 475" enable-background="new 0 0 494.5 475" xml:space="preserve">
+              <g fill="none" stroke="#fefef6" stroke-width="4">
+                 <g stroke-miterlimit="2.9" >
+                    <path class="arrow1" d="m232.54 130.67l15.631 15.829 15.501-15.9"/>
+                    <path class="arrow2" d="m232.56 100.67l15.631 15.829 15.501-15.9"/>
+                    <path class="arrow3" d="m232.56 70.72l15.631 15.829 15.501-15.9"/>
+                 </g>
+              </g>
+           </svg>
+        </a>
+                 </section>
+            </div>
+         </section>
+      </div>
 
-   </div>
+      <div class="parallax parallax1" id="mainClient" gumby-parallax=".5">
+
+         <div class="row mainClientWrap">
+            <div class="push_six six columns test2 mainClient" id="mainClient" data-target="nemClient">
+               <span class="modContent">
+                  <span class="hideDesktop">
+                  <img src="{{ url_for('static', filename='img/laptop-nem-small.png') }}" alt="laptop running NEM client"/>
+                  </span>
+                  <div class="clientTextSlide inview" gumby-classname="onscreen" gumby-offset="250">
+                     <a class="anchor" id="top"></a>
+                  <h3 class="goto" id="clientsheader1">NEM Community Client</h3>
+                  <p class="descrip" id="clientsabout1">Open the Full Featured NEM Beta Client in your web browser, a simple two step process.</p>
+                     <p>
+                        <a href="install.html" class="btn btn-1 btn-1e button" id="clientsclick1">INSTALL NEM COMMUNITY CLIENT</a>
+                     </p>
+                     <p class="needHelp" id="linkHtml" data-i18n="[html]clients.help1;">Need help with installing the NEM Client?</p>
+                  </div>
+               </span>
+            </div>
+            <div class="pull_four eight columns laptop">
+               <img class="inview" gumby-classname="onscreen" gumby-offset="250" src="{{ url_for('static', filename='img/laptopNEM.png') }}" alt="alternate photo of laptop running NEM"/>
+            </div>
+         </div>
+
+          <div class="row">
+            <div class="six columns thirdParty inview" gumby-classname="onscreen" gumby-offset="50">
+               <h3 id="clientsheader2"></h3>
+               <p id="clientsabout2"></p> <!--Replace span with a tag when active-->
+               <p><span href="" class="comingS" id="clientsclick2"></span></p>
+            </div>
+         </div>
+      </div>
+      <div class="stats" id ="stats">
+         <div class="row">
+            <div class="statInfo statsMargin">
+               <div class="statNumbers">
+                  <div id="odometer5" class="odometer">{{Jresponse}}</div>
+               </div>
+               <div class="statWords" id="statsheight"></div>
+            </div>
+            <div class="statInfo statsMargin">
+               <div class="statNumbers">
+                  <div id="odometer3" class="odometer"><?PHP echo $output[1]; ?></div>
+               </div>
+               <div class="statWords" id="statsnis"></div>
+            </div>
+            <div class="statInfo">
+               <div class="statNumbers">
+                  <div id="odometer4" class="odometer">{{jPrice}}</div>
+               </div>
+               <div class="statWords" id="statsprice"></div>
+            </div>
+            <div class="statInfo">
+               <div class="statNumbers">
+                  <div id="odometer2" class="odometer"></div>
+               </div>
+               <div class="statWords" id="statsVer"></div>
+            </div>
+         </div>
+      </div>
+
+      <div class="parallax parallax2" gumby-parallax=".7">
+         <div class="overflowHide">
+            <div class="heading3" data-target="purchaseNem">
+               <h2 id="buyheader"></h2>
+            </div>
+            <div class="row purchase">
+            <!-- BOX 1 STARTS -->
+               <div class="four columns border">
+                  <div class="joined2">
+                     <ul class="three_up tiles">
+                        <li>
+                           <img class="nemIcon" src="{{ url_for('static', filename='img/64x64.png') }}"/>
+                        </li>
+                        <li>
+                           <img class="arrows" src="{{ url_for('static', filename='img/arrows.png') }}"/>
+                        </li>
+                        <li>
+                           <img class="bitcoin svg-inject" src="{{ url_for('static', filename='img/bitcoin.svg') }}"/>
+                        </li>
+                     </ul>
+                     <div class="ten columns centered">
+                        <p id="buybox2"></p>
+                     </div>
+                  </div>
+
+                  <div class="eleven columns centered test2">
+                     <div class="row">
+                        <div class="buyColumns test2">
+                           <ul>
+                              <li>
+                                 <a href="https://poloniex.com/exchange#btc_xem">POLONIEX</a>
+                              </li>
+                              <li>
+                                 <a href="http://btc38.com/trade.html?mk_type=btc&btc38_trade_coin_name=xem">BTC38</a>
+                              </li>
+                              <li>
+                                 <a href="https://vip.bitcoin.co.id/nembtc">BITCOIN.co.id</a>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="buyColumns test2">
+                           <ul>
+                              <li>
+                                 <a href="https://bittrex.com/Market/Index?MarketName=BTC-XEM">BITTREX</a>
+                              </li>
+                              <li>
+                                 <a href="https://bter.com/trade/XEM_BTC">BTER</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+
+
+            </div>
+               <!-- BOX 2 STARTS -->
+               <div class="four columns border">
+                  <div class="joined">
+                     <ul class="three_up tiles">
+                        <li>
+                           <img class="nemIcon" src="{{ url_for('static', filename='img/64x64.png') }}"/>
+                        </li>
+                        <li>
+                           <img class="arrows" src="{{ url_for('static', filename='img/arrows.png') }}"/>
+                        </li>
+                        <li>
+                           <img class="cart svg-inject" src="{{ url_for('static', filename='img/shopping109.svg') }}"/>
+                        </li>
+                     </ul>
+                     <div class="ten columns centered">
+                        <p id="buybox1"></p>
+                     </div>
+                  </div>
+                  <div class="ten columns centered test2">
+                     <p><!-- Replace span with a tag when active -->
+                        <a href="https://coingateway.net/" id="buybox1click" class="button btn btn-1 btn-1e"></a>
+                  <!-- class=" button" -->
+                     </p>
+                  </div>
+               </div>
+               <!--  BOX3 STARTS -->
+               <div class="four columns border">
+                  <div class="joined">
+                     <ul class="three_up tiles">
+                        <li>
+                           <img class="nemIcon" src="{{ url_for('static', filename='img/64x64.png') }}"/>
+                        </li>
+                        <li>
+                           <img class="arrows" src="{{ url_for('static', filename='img/arrows.png') }}"/>
+                        </li>
+                        <li>
+                           <img class="money" src="{{ url_for('static', filename='img/money.png') }}"/>
+                        </li>
+                     </ul>
+                     <div class="ten columns centered">
+                        <p id="buybox3"></p>
+                     </div>
+                  </div>
+                  <div class="ten columns centered test2">
+                     <p><!-- Replace span with a tag when active -->
+                        <span href="" id="buybox3click" class="button comingSoon"></span>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <!-- UNDER BOX STARTS (BOX4?) -->
+            <div class="row purchase border otherXchange">
+               <div class="">
+<div class="inside">
+   <a href="https://poloniex.com/exchange#btc_xem">
+      <img height="16px" src="{{ url_for('static', filename='img/poloniexSat.png') }}"/ alt="Poloniex cryptocurrency exchange">
+   </a>
+</div>
+<div class="inside">
+   <a href="https://bittrex.com/Market/Index?MarketName=BTC-XEM">
+      <img height="20px" src="{{ url_for('static', filename='img/bittrexSat.png') }}" alt="bittrex cryptocurrency exchange"/>
+   </a>
+</div>
+<div class="inside inside2">
+   <a href="https://coingateway.net/">
+      <img src="{{ url_for('static', filename='img/coingateway.png') }}" alt="coingateway exchange"/>
+   </a>
+</div>
+<div class="inside">
+   <a href="http://btc38.com/trade.html?mk_type=btc&btc38_trade_coin_name=xem">
+      <img height="16px" src="{{ url_for('static', filename='img/btc38Sat.png') }}" alt="btc38 cryptocurrency exchange"/>
+   </a>
+</div>
+<div class="inside inside2">
+   <a href="https://vip.bitcoin.co.id/nembtc">
+      <img height="20px" src="{{ url_for('static', filename='img/bitcoincoid.png') }}" alt="bitcoin cryptocurrency exchange"/>
+   </a>
+</div>
+<div class="inside inside2">
+   <a href="https://bter.com/trade/XEM_BTC">
+      <img src="{{ url_for('static', filename='img/bterSat.png') }}" alt="bter cryptocurrency exchange"/>
+   </a>
+</div>
+</div>
+            </div>
+            <div class="row purchase">
+               <div class="twelve columns buyGuide inview" gumby-classname="onscreen" gumby-offset="50">
+                  <!-- <h5 class="needHelp" id="link2Html" data-i18n="[html]buy.help;"></h5>
+                  <h5 class="needHelp" id="link2Html2" data-i18n="[html]buy.help2;"></h5> -->
+                  <h5 class="needHelp" id="btc8Chat" data-i18n="[html]buy.8btc;"></h5>
+               </div>
+            </div>
+
+            <div id="innerHtml" data-i18n="[html]html.content;"></div>
+         </div>
+      </div>
+<!--
+      <div class="testimonials">
+         <div class="row">
+            <div class="testimWrap">
+               <div class="user1">
+                  <p>Makoto 1338<img src="img/saul.jpg" alt="portait testimonial user 1"/></p>
+               </div>
+               <div class="user1comment" id="">I am a future advocate. STYLE #2</div>
+            </div>
+            <div class="testimWrap">
+               <div class="user2">
+                  <p>Saul Goodman<img src="img/saul.jpg" alt="portait testimonial user 2"/></p>
+               </div>
+               <div class="user2comment" id=""> This is STYLE #2</div>
+            </div>
+            <div class="testimWrap">
+               <div class="user3">
+                  <p>Jackson Jones<img src="img/saul.jpg" alt="portait testimonial user 3"/></p>
+               </div>
+               <div class="user3comment" id=""> This is STYLE #2, I'm repetitive like that.</div>
+            </div>
+
+         </div>
+      </div>
+-->
+      <!--NEED MORE HELP SECTION START-->
+      <!-- <div class="faqs" data-target="faqs">
+         <div class="row">
+            <div class="four columns">
+               <article class="valign row">
+                  <div>
+                     <h3 class="inview" gumby-classname="onscreen|offtop" gumby-offset="100" id="faqheader"></h3>
+                  </div>
+               </article>
+            </div>
+            <div class="eight columns">
+               <article class="valign row">
+                  <div>
+                     <ul>
+                        <li class="faq1">
+                           <i class="icon-help-circled inview" gumby-classname="onscreen" gumby-offset="150"></i><a href="comingSoon.html">
+                           <span class="inview faqreadfaq" gumby-classname="onscreen" gumby-offset="150" id="faqreadfaq"></span>
+                           <span id="faqreadfaq2" class="faqreadfaq2"></span>
+                           </a>
+                        </li>
+                        <li class="faq2">
+                           <i class="icon-chat inview" gumby-classname="onscreen" gumby-offset="130"></i><a href="http://webchat.freenode.net/?channels=ournem">
+                           <span class="inview faqirc" gumby-classname="onscreen" id="faqirc" gumby-offset="130"></span>
+                           <span id="faqirc2" class="faqirc2"></span>
+                           </a>
+                        </li>
+                        <li class="faq3">
+                           <i class="icon-users inview" gumby-classname="onscreen" gumby-offset="170"></i><a href="https://forum.nemcoin.com/index.php">
+                              <span class="inview faqforum" gumby-classname="onscreen" gumby-offset="170" id="faqforum"></span>
+                              <span id="faqforum2" class="faqforum2"></span>
+                              </a>
+                        </li>
+                        <li class="faq4">
+                           <i class="icon-keyboard inview" gumby-classname="onscreen" gumby-offset="190"></i><a href="http://wiki.nemcoin.com/index.php">
+                              <span class="inview faqwiki" gumby-classname="onscreen" gumby-offset="190" id="faqwiki"></span>
+                              <span id="faqwiki2" class="faqwiki2"></span>
+                              </a>
+                        </li>
+                     </ul>
+                  </div>
+               </article>
+            </div>
+         </div>
+      </div> -->
+      <div class="parallax parallax3" id="news" gumby-parallax=".5" data-target="newsFeed">
+         <div class="row mainClientWrap">
+            <section class="box1">
+               <div>
+                  <div>
+                     <div id="newsFeed"></div>
+                  </div>
+               </div>
+         </section>
+         </div>
+      </div>
 {% endblock %}

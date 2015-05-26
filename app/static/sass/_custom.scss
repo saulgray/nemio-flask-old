@@ -37,6 +37,8 @@ $arrowTransparent: rgba(255,255,255,0.2);
       }
    }
 }
+// SVG's
+
 // BACKGROUND IMAGES THROUGHOUT START =========
 .parallax1{
    background: url(../img/about-bg.jpg) no-repeat;
@@ -149,7 +151,7 @@ nav{
    background-color: $white;
    text-transform: uppercase;
    .three.columns.logo{ //nem logo
-      margin-top: 25px;
+      margin-top: 20px;
    }
    .nine.columns{
       margin-top: 2.5%;
@@ -196,7 +198,7 @@ nav.fixed{
    @include hidden(portrait-tablet);
    height: 65px;
    .three.columns.logo{
-      margin-top: -5px;
+      margin-top: 3px;
       img{
          width: 100px;
       }

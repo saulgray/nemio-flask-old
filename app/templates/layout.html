@@ -24,7 +24,7 @@
       <meta name="description" content="Official Website of NEM, the platform for XEM, a cryptocurrency with built-in Multisig, and an unique POI algorithm">
       <meta name="keywords" content="nem xem nemcoin ournem new-economy-movement crypto cryptocurrency">
       <meta name="author" content="humans.txt">
-      <link rel="shortcut icon" href="img/Favicon.ico" type="image/x-icon">
+      <link rel="shortcut icon" href="{{ url_for('static', filename='img/Favicon.ico') }}" type="image/x-icon">
       <!-- Facebook Metadata /-->
       <meta property="fb:page_id" content="217174381806901">
       <meta property="og:image" content="http://nem.io/img/nemLogoLarge.png">
@@ -40,6 +40,9 @@
       <!--
       <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
       <script src="http://github.hubspot.com/odometer/odometer.js"></script> -->
+
+
+
       <link rel="stylesheet" href="{{ url_for('static', filename='css/gumby.css') }}">
       <script src="{{ url_for('static', filename='bower_components/gumby/js/libs/modernizr-2.6.2.min.js') }}"></script>
       <script>
@@ -114,6 +117,7 @@
    <script src="{{ url_for('static', filename='js/_custom.js') }}"></script>
    <script src="{{ url_for('static', filename='bower_components/gumby/js/plugins.js') }}"></script>
    <script src="{{ url_for('static', filename='bower_components/gumby/js/main.js') }}"></script>
+
    <script type="text/javascript">
       onload=function(){
       var mydiv=document.getElementById('stats');

@@ -1,7 +1,8 @@
 
 <footer class="row footLinks" gumby-shuffle="only screen and (max-width: 767px)|1-0">
             <div class=" four columns inview" gumby-classname="onscreen" gumby-offset="150" >
-               <img src="img/nemLogoWhite.svg" onerror="this.src=img/nemLogoWhite.png" alt="NEM logo white" gumby-retina />
+               <img class="svg-inject one" src="{{ url_for('static', filename='img/nemLogoWhite.svg') }}"
+ alt="NEM logo white" gumby-retina />
                <p id="footerlogotext"></p>
             </div>
             <div class="push_two six columns">

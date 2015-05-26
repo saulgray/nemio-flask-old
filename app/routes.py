@@ -34,11 +34,11 @@ def home():
     # for nodes in jsonNodes['nodes']:
     #     nodeCounter += 1
     #
-    # response3 = urlopen(urlPOLO)
-    # jsonPrice = load(response3)
-    # priceXEM = float(jsonPrice['BTC_XEM']['last'])
-    # priceXEM *= 100000000 #100,000,000
-    # finalPriceXEM = ("%.0f" % priceXEM)
+    response3 = urlopen(urlPOLO)
+    jsonPrice = load(response3)
+    priceXEM = float(jsonPrice['BTC_XEM']['last'])
+    priceXEM *= 100000000 #100,000,000
+    finalPriceXEM = ("%.0f" % priceXEM)
 
     # uri = "https://api.stackexchange.com/2.0/users?   order=desc&sort=reputation&inname=fuchida&site=stackoverflow"
     # try:
@@ -53,12 +53,12 @@ def home():
 
     # return Jresponse
 
-    return render_template('home.html', Jresponse=finalHeight)
+    return render_template('home.html', Jresponse=finalHeight, jPrice=finalPriceXEM)
 
 
-@app.route('/about')
+@app.route('/faq')
 def about():
-  return render_template('about.html')
+  return render_template('faq.html')
 
 if __name__ == '__main__':
-  app.run(debug=False)
+  app.run(debug=True)

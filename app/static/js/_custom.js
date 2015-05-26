@@ -287,6 +287,26 @@ $.i18n.init({
 	};
 	twitterFetcher.fetch(config1);
 
+// SVGinject START
+// Elements to inject
+var mySVGsToInject = document.querySelectorAll('img.svg-inject');
+
+// Options
+var injectorOptions = {
+  evalScripts: 'once',
+  pngFallback: '../img',
+  each: function (svg) {
+    // Callback after each SVG is injected
+    console.log('SVG injected: ' + svg.getAttribute('id'));
+  }
+};
+
+// Trigger the injection
+SVGInjector(mySVGsToInject, injectorOptions, function (totalSVGsInjected) {
+  // Callback after all SVGs are injected
+  console.log('We injected ' + totalSVGsInjected + ' SVG(s)!');
+});
+
 // SMOOTH SCROLLING START
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
