@@ -1,5 +1,6 @@
 from flask import Flask, render_template, jsonify
 from urllib2 import urlopen
+import urllib
 import json
 from json import load
 import requests
@@ -10,50 +11,45 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    urlNEMBEX = 'http://nembex.nem.ninja/api/stats/nodes'
-    urlNEMBEX2 = 'http://212.18.233.57:7890/chain/height'
-    urlPOLO = 'https://poloniex.com/public?command=returnTicker'
 
-    try:
-        heightResponse = requests.get(urlNEMBEX2)
-    except requests.ConnectionError:
-        finalHeight = 'FAILED'
-    heightResponseJ = heightResponse.text
-    jsonHeight = json.loads(heightResponseJ)
-    #add 10 blocks to account for NEMBEX lag + 10
-    finalHeight = int(jsonHeight['height'])
+    urlVersion = 'http://bob.nem.ninja/version.json'
+    urlHeight = 'http://37.59.120.16:7890/chain/height'
+    urlNodes = 'http://37.59.120.16:7890/node/peer-list/all'
+    urlPolo = 'https://poloniex.com/public?command=returnTicker'
 
-    # response = urlopen(urlNEMBEX2)
-    # jsonHeight = load(response)
-    # #add 10 blocks to account for NEMBEX lag
-    # finalHeight = int(jsonHeight['height']) + 10
-    #
-    # response2 = urlopen(urlNEMBEX)
-    # jsonNodes = load(response2)
-    # nodeCounter = 0
-    # for nodes in jsonNodes['nodes']:
-    #     nodeCounter += 1
-    #
-    response3 = urlopen(urlPOLO)
-    jsonPrice = load(response3)
-    priceXEM = float(jsonPrice['BTC_XEM']['last'])
-    priceXEM *= 100000000 #100,000,000
-    finalPriceXEM = ("%.0f" % priceXEM)
+    poloStatus = urllib.urlopen(urlPolo).getcode()
+    versionStatus = urllib.urlopen(urlVersion).getcode()
+    heightStatus = urllib.urlopen(urlHeight).getcode()
+    nodeStatus = urllib.urlopen(urlNodes).getcode()
 
-    # uri = "https://api.stackexchange.com/2.0/users?   order=desc&sort=reputation&inname=fuchida&site=stackoverflow"
-    # try:
-    #     uResponse = requests.get(uri)
-    # except requests.ConnectionError:
-    #    return "Connection Error"
-    # Jresponse = uResponse.text
-    # data = json.loads(Jresponse)
-    #
-    # displayName = data['items'][0]['display_name']# <-- The display name
-    # reputation = data['items'][0]['reputation']# <-- The reputation
+    if (poloStatus|versionStatus|heightStatus|nodeStatus) != 200:
+        print 'Stats will not be displayed, a site is down.'
+    else:
+        print 'hellllllo'
+        heightResponse = requests.get(urlHeight)
+        heightResponseJ = heightResponse.text
+        jsonHeight = json.loads(heightResponseJ)
+        finalHeight = int(jsonHeight['height'])
 
-    # return Jresponse
+        # nodeResponse = requests.get(urlNodes)
+        # nodeResponseJ = nodeResponse.text
+        # jsonNode = json.loads(nodeResponseJ)
+        # nodeCounter = 0
+        # for metaData in jsonNode['active']['metaData']:
+        #     nodeCounter += 1
 
-    return render_template('home.html', Jresponse=finalHeight, jPrice=finalPriceXEM)
+        response3 = urlopen(urlPolo)
+        jsonPrice = load(response3)
+        priceXEM = float(jsonPrice['BTC_XEM']['last'])
+        priceXEM *= 100000000 #100,000,000
+        finalPriceXEM = ("%.0f" % priceXEM)
+
+        versionResponse = requests.get(urlVersion)
+        versionResponseJ = versionResponse.text
+        jsonVersion = json.loads(versionResponseJ)
+        finalVersion = jsonVersion['stable']
+
+    return render_template('home.html', jHeight=finalHeight, jPrice=finalPriceXEM, jVersion=finalVersion)
 
 
 @app.route('/faq')
@@ -61,4 +57,4 @@ def about():
   return render_template('faq.html')
 
 if __name__ == '__main__':
-  app.run(debug=True)
+  app.run(debug=True,port=1338)
