@@ -40,9 +40,6 @@
       <!--
       <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
       <script src="http://github.hubspot.com/odometer/odometer.js"></script> -->
-
-
-
       <link rel="stylesheet" href="{{ url_for('static', filename='css/gumby.css') }}">
       <script src="{{ url_for('static', filename='bower_components/gumby/js/libs/modernizr-2.6.2.min.js') }}"></script>
       <script>
@@ -54,12 +51,12 @@
         ga('send', 'pageview');
       </script>
   </head>
-  <body>
+
 
    <header>
       {% include 'nav.html' %}
    </header>
-
+   <body>
    <div class="container">
       {% block content %}
       {% endblock %}
@@ -90,7 +87,6 @@
       }
       }
    </script>
-
    <!--
       Google's recommended deferred loading of JS
       gumby.min.js contains gumby.js, all UI modules and gumby.init.js
@@ -113,7 +109,6 @@
       else window.onload = downloadJSAtOnload;
       </script> -->
    <script src="{{ url_for('static', filename='js/gumby.min.js') }}"></script>
-   <script src="{{ url_for('static', filename='js/twitterFetcher.js') }}"></script>
    <script src="{{ url_for('static', filename='js/_custom.js') }}"></script>
    <script src="{{ url_for('static', filename='bower_components/gumby/js/plugins.js') }}"></script>
    <script src="{{ url_for('static', filename='bower_components/gumby/js/main.js') }}"></script>
@@ -126,21 +121,9 @@
       }
 </script>
 <script>
-      // function code(data) {
-      // console.log(data);
-      //     alert(data.type);
-      //     document.getElementById("odometer5").innerHTML=+data.type;
-      //  }
-//        function callback(data) {
-//        console.log(data);
-//          //  alert(data.stable);
-//    document.getElementById("odometer2").innerHTML=data.stable;
-// }
-
 </script>
 <!-- get client version number from bob.nem.ninja -->
 <script src="http://bob.nem.ninja/version_p.js"></script>
-   <!-- // <script src="http://107.161.182.102:7890/status"></script> -->
 
    <!-- Change UA-XXXXX-X to be your site's ID -->
    <!--<script>

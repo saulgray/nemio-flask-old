@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+{% block content %}
+      <div class="top parallax parallaxTopFAQ"  gumby-parallax=".53">
+         <section id="mainArchive">
+            <div class="row">
+                 <section class="six columns centered">
+                   <div class="headlineArchive">
+<h1 class="pageArchiveH1">NEM CLIENT</h1>
+                 </div>
+                 </section>
+            </div>
+         </section>
+      </div>
+      <div id="install">
+      <div class="parallax parallax4" gumby-parallax=".7">
+         <div class="row installer">
+            <h2>Installers</h2>
+            <div class="eight columns centered">
+               <div class="six columns borderClient">
+                  <div class="clientLarge" id="windowsInstall"></div>
+               </div>
+               <div class="six columns borderClient">
+                  <div class="clientLarge" id="macInstall"></div>
+               </div>
+            </div>
+         </div>
+<hr>
+<br><br>
+         <div class="row installer">
+            <h3>Standalone Client</h3>
+            <h5>For 32/64 Linux, 32-bit Windows, and 32-bit Mac</h5>
+            <div class="eight columns centered borderClient">
+               <div class="six columns">
+                  <div class="clientMed" id="tgzClient"></div>
+                  <div class="sigSmall" id="tgzSig"></div>
+               </div>
+               <div class="six columns">
+                  <div  class="clientMed" id="zipClient"></div>
+                  <div class="sigSmall" id="zipSig"></div>
+               </div>
+            </div>
+         </div>
+<hr>
+<br><br>
+         <div class="row installer">
+            <h5>Backup Client Resource</h5>
+            <div class="five columns centered borderClient">
+               <p>
+                  If you are having issues downloading from the links above, download them directly from our sister-site at <a href="http://bob.nem.ninja/installer/">bob.nem.ninja</a>
+               </p>
+            </div>
+         </div>
+         <br><br>
+      </div>
+   </div>
+      <!-- put version number in download links -->
+      <script>
+         function callback(data) {
+            // console.log(data);
+            // alert(data.testing);
+            document.getElementById("windowsInstall").innerHTML="<a href=\"http://bob.nem.ninja/installer/nemwallet-"+data.stable+"-windows-installer.exe\"><img src=\"static/img/windows.png\"/><br><br>Windows Installer</a>";
+            document.getElementById("macInstall").innerHTML="<a href=\"http://bob.nem.ninja/installer/nemwallet-"+data.stable+"-osx-installer.app.tgz\"><img src=\"static/img/mac.png\"/><br><br>Mac Installer</a>";
+            document.getElementById("tgzClient").innerHTML="<a href=\"http://bob.nem.ninja/nis-ncc-"+data.stable+".tgz\">NIS/NCC Standalone (.tgz)</a>";
+            document.getElementById("tgzSig").innerHTML="<a href=\"http://bob.nem.ninja/nis-ncc-"+data.stable+".tgz.sig\">NIS/NCC Signature (.tgz)</a>";
+            document.getElementById("zipClient").innerHTML="<a href=\"http://bob.nem.ninja/nis-ncc-"+data.stable+".zip\">NIS/NCC Standalone (.zip)</a>";
+            document.getElementById("zipSig").innerHTML="<a href=\"http://bob.nem.ninja/nis-ncc-"+data.stable+".zip.sig\">NIS/NCC Signature (.zip)</a>";
+          }
+      </script>
+{% endblock content %}
